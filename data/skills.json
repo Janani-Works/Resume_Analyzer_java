@@ -1,0 +1,5286 @@
+{
+  "version": "1.0",
+  "total": 420,
+  "skills": [
+    {
+      "id": 1,
+      "name": "Python",
+      "category": "Programming Language",
+      "synonyms": [
+        "py",
+        "python3",
+        "python2",
+        "python scripting"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "category": "Programming Language",
+      "synonyms": [
+        "js",
+        "es6",
+        "ecmascript",
+        "vanilla js",
+        "node javascript"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 3,
+      "name": "TypeScript",
+      "category": "Programming Language",
+      "synonyms": [
+        "ts",
+        "typed javascript",
+        "typescript language"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 4,
+      "name": "Java",
+      "category": "Programming Language",
+      "synonyms": [
+        "java8",
+        "java11",
+        "java17",
+        "jdk",
+        "jvm",
+        "core java"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 5,
+      "name": "C++",
+      "category": "Programming Language",
+      "synonyms": [
+        "cpp",
+        "c plus plus",
+        "cplusplus",
+        "c/c++"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 6,
+      "name": "C#",
+      "category": "Programming Language",
+      "synonyms": [
+        "csharp",
+        "c sharp",
+        "dotnet c#",
+        "c-sharp"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 7,
+      "name": "Go",
+      "category": "Programming Language",
+      "synonyms": [
+        "golang",
+        "go lang",
+        "go programming"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 8,
+      "name": "Rust",
+      "category": "Programming Language",
+      "synonyms": [
+        "rust lang",
+        "rustlang",
+        "rust programming"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 9,
+      "name": "Kotlin",
+      "category": "Programming Language",
+      "synonyms": [
+        "kotlin jvm",
+        "kotlin android",
+        "kotlin language"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 10,
+      "name": "Swift",
+      "category": "Programming Language",
+      "synonyms": [
+        "swift ios",
+        "swift apple",
+        "swift programming"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 11,
+      "name": "Ruby",
+      "category": "Programming Language",
+      "synonyms": [
+        "rb",
+        "ruby lang",
+        "ruby programming"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 12,
+      "name": "PHP",
+      "category": "Programming Language",
+      "synonyms": [
+        "php7",
+        "php8",
+        "hypertext preprocessor",
+        "php scripting"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 13,
+      "name": "Scala",
+      "category": "Programming Language",
+      "synonyms": [
+        "scala jvm",
+        "akka scala",
+        "scala language"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 14,
+      "name": "R",
+      "category": "Programming Language",
+      "synonyms": [
+        "r language",
+        "r programming",
+        "rlang",
+        "r statistics"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 15,
+      "name": "MATLAB",
+      "category": "Programming Language",
+      "synonyms": [
+        "matlab programming",
+        "matlab simulation"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 16,
+      "name": "Dart",
+      "category": "Programming Language",
+      "synonyms": [
+        "dart flutter",
+        "dart language"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 17,
+      "name": "Elixir",
+      "category": "Programming Language",
+      "synonyms": [
+        "elixir phoenix",
+        "elixir language"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 18,
+      "name": "Haskell",
+      "category": "Programming Language",
+      "synonyms": [
+        "haskell fp",
+        "haskell functional"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 19,
+      "name": "Perl",
+      "category": "Programming Language",
+      "synonyms": [
+        "perl5",
+        "perl scripting",
+        "perl programming"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 20,
+      "name": "Lua",
+      "category": "Programming Language",
+      "synonyms": [
+        "lua scripting",
+        "lua language"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 21,
+      "name": "Shell Scripting",
+      "category": "Programming Language",
+      "synonyms": [
+        "bash",
+        "sh",
+        "shell script",
+        "bash scripting",
+        "zsh",
+        "unix scripting"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 22,
+      "name": "PowerShell",
+      "category": "Programming Language",
+      "synonyms": [
+        "ps1",
+        "powershell scripting",
+        "windows scripting"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 23,
+      "name": "SQL",
+      "category": "Database",
+      "synonyms": [
+        "structured query language",
+        "sql queries",
+        "t-sql",
+        "pl/sql",
+        "sql server query",
+        "database query"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 24,
+      "name": "React",
+      "category": "Frontend Framework",
+      "synonyms": [
+        "reactjs",
+        "react.js",
+        "react hooks",
+        "react framework"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 25,
+      "name": "Vue.js",
+      "category": "Frontend Framework",
+      "synonyms": [
+        "vuejs",
+        "vue",
+        "vue3",
+        "nuxt",
+        "vue framework"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 26,
+      "name": "Angular",
+      "category": "Frontend Framework",
+      "synonyms": [
+        "angularjs",
+        "angular2+",
+        "angular cli",
+        "angular framework"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 27,
+      "name": "Next.js",
+      "category": "Frontend Framework",
+      "synonyms": [
+        "nextjs",
+        "next js",
+        "next framework",
+        "next.js framework"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 28,
+      "name": "Svelte",
+      "category": "Frontend Framework",
+      "synonyms": [
+        "sveltejs",
+        "sveltekit",
+        "svelte framework"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 29,
+      "name": "HTML",
+      "category": "Frontend",
+      "synonyms": [
+        "html5",
+        "hypertext markup",
+        "html css",
+        "markup language"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 30,
+      "name": "CSS",
+      "category": "Frontend",
+      "synonyms": [
+        "css3",
+        "cascading style sheets",
+        "css animations",
+        "styling"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 31,
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "synonyms": [
+        "tailwind",
+        "tailwindcss",
+        "tailwind framework",
+        "utility css"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 32,
+      "name": "Bootstrap",
+      "category": "Frontend",
+      "synonyms": [
+        "bootstrap 4",
+        "bootstrap 5",
+        "twitter bootstrap",
+        "bootstrap framework"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 33,
+      "name": "SASS",
+      "category": "Frontend",
+      "synonyms": [
+        "scss",
+        "sass css",
+        "sass preprocessor",
+        "scss css"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 34,
+      "name": "Redux",
+      "category": "Frontend",
+      "synonyms": [
+        "redux toolkit",
+        "react redux",
+        "state management",
+        "redux state"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 35,
+      "name": "GraphQL",
+      "category": "API",
+      "synonyms": [
+        "gql",
+        "graphql api",
+        "apollo graphql",
+        "graph query language"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 36,
+      "name": "REST API",
+      "category": "API",
+      "synonyms": [
+        "restful",
+        "rest",
+        "restful api",
+        "rest services",
+        "http api",
+        "rest endpoints"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 37,
+      "name": "gRPC",
+      "category": "API",
+      "synonyms": [
+        "grpc protocol",
+        "protocol buffers",
+        "protobuf grpc",
+        "grpc service"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 38,
+      "name": "WebSocket",
+      "category": "API",
+      "synonyms": [
+        "websockets",
+        "ws",
+        "socket.io",
+        "real-time web",
+        "websocket protocol"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 39,
+      "name": "FastAPI",
+      "category": "Backend Framework",
+      "synonyms": [
+        "fast api",
+        "python fastapi",
+        "fastapi python",
+        "fastapi framework"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 40,
+      "name": "Django",
+      "category": "Backend Framework",
+      "synonyms": [
+        "django rest",
+        "django framework",
+        "django python",
+        "drf",
+        "django web"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 41,
+      "name": "Flask",
+      "category": "Backend Framework",
+      "synonyms": [
+        "flask python",
+        "flask api",
+        "flask framework",
+        "flask web"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 42,
+      "name": "Spring Boot",
+      "category": "Backend Framework",
+      "synonyms": [
+        "spring",
+        "springboot",
+        "spring mvc",
+        "spring framework",
+        "spring java",
+        "spring rest"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 43,
+      "name": "Express.js",
+      "category": "Backend Framework",
+      "synonyms": [
+        "expressjs",
+        "express node",
+        "node express",
+        "express framework"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 44,
+      "name": "Node.js",
+      "category": "Backend Framework",
+      "synonyms": [
+        "nodejs",
+        "node js",
+        "node runtime",
+        "node backend"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 45,
+      "name": "NestJS",
+      "category": "Backend Framework",
+      "synonyms": [
+        "nestjs framework",
+        "nest.js",
+        "nestjs api"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 46,
+      "name": "Laravel",
+      "category": "Backend Framework",
+      "synonyms": [
+        "laravel php",
+        "laravel framework",
+        "laravel api"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 47,
+      "name": "Rails",
+      "category": "Backend Framework",
+      "synonyms": [
+        "ruby on rails",
+        "ror",
+        "rails ruby",
+        "rails framework"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 48,
+      "name": "ASP.NET",
+      "category": "Backend Framework",
+      "synonyms": [
+        "asp.net core",
+        "dotnet web",
+        "asp net",
+        "asp.net mvc",
+        "dotnet api"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 49,
+      "name": "MySQL",
+      "category": "Database",
+      "synonyms": [
+        "mysql db",
+        "mysql server",
+        "mysql 8",
+        "mysql database"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 50,
+      "name": "PostgreSQL",
+      "category": "Database",
+      "synonyms": [
+        "postgres",
+        "postgresql db",
+        "psql",
+        "postgres database"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 51,
+      "name": "MongoDB",
+      "category": "Database",
+      "synonyms": [
+        "mongo",
+        "mongodb atlas",
+        "nosql mongo",
+        "mongoose",
+        "mongo db"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 52,
+      "name": "Redis",
+      "category": "Database",
+      "synonyms": [
+        "redis cache",
+        "redis db",
+        "in-memory redis",
+        "redis server"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 53,
+      "name": "Elasticsearch",
+      "category": "Database",
+      "synonyms": [
+        "elastic search",
+        "elk elasticsearch",
+        "es",
+        "elastic stack"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 54,
+      "name": "Cassandra",
+      "category": "Database",
+      "synonyms": [
+        "apache cassandra",
+        "cassandra db",
+        "nosql cassandra"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 55,
+      "name": "DynamoDB",
+      "category": "Database",
+      "synonyms": [
+        "aws dynamodb",
+        "amazon dynamodb",
+        "dynamo db",
+        "dynamodb nosql"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 56,
+      "name": "SQLite",
+      "category": "Database",
+      "synonyms": [
+        "sqlite3",
+        "sqlite db",
+        "sqlite database"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 57,
+      "name": "Oracle DB",
+      "category": "Database",
+      "synonyms": [
+        "oracle database",
+        "oracle sql",
+        "oracle rdbms",
+        "oracle 19c"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 58,
+      "name": "SQL Server",
+      "category": "Database",
+      "synonyms": [
+        "mssql",
+        "microsoft sql",
+        "ms sql server",
+        "t-sql server",
+        "sql server database"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 59,
+      "name": "Neo4j",
+      "category": "Database",
+      "synonyms": [
+        "neo4j graph",
+        "graph database",
+        "cypher neo4j",
+        "graph db"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 60,
+      "name": "Firebase",
+      "category": "Database",
+      "synonyms": [
+        "firebase db",
+        "firestore",
+        "firebase realtime",
+        "google firebase"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 61,
+      "name": "AWS",
+      "category": "Cloud",
+      "synonyms": [
+        "amazon web services",
+        "aws cloud",
+        "amazon cloud",
+        "aws platform"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 62,
+      "name": "Azure",
+      "category": "Cloud",
+      "synonyms": [
+        "microsoft azure",
+        "azure cloud",
+        "ms azure",
+        "azure platform"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 63,
+      "name": "GCP",
+      "category": "Cloud",
+      "synonyms": [
+        "google cloud",
+        "google cloud platform",
+        "gcp cloud",
+        "google cloud services"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 64,
+      "name": "Docker",
+      "category": "DevOps",
+      "synonyms": [
+        "docker container",
+        "containerization",
+        "dockerfile",
+        "docker-compose",
+        "container docker"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 65,
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "synonyms": [
+        "k8s",
+        "kubectl",
+        "kubernetes cluster",
+        "k8 orchestration",
+        "kube"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 66,
+      "name": "Terraform",
+      "category": "DevOps",
+      "synonyms": [
+        "iac terraform",
+        "infrastructure as code terraform",
+        "hashicorp terraform",
+        "terraform iac"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 67,
+      "name": "Ansible",
+      "category": "DevOps",
+      "synonyms": [
+        "ansible automation",
+        "ansible playbook",
+        "ansible configuration"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 68,
+      "name": "Jenkins",
+      "category": "DevOps",
+      "synonyms": [
+        "jenkins ci",
+        "jenkins pipeline",
+        "jenkins automation",
+        "jenkins cicd"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 69,
+      "name": "GitHub Actions",
+      "category": "DevOps",
+      "synonyms": [
+        "gh actions",
+        "github ci",
+        "github workflows",
+        "github actions ci"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 70,
+      "name": "GitLab CI",
+      "category": "DevOps",
+      "synonyms": [
+        "gitlab ci/cd",
+        "gitlab pipeline",
+        "gitlab automation",
+        "gitlab cicd"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 71,
+      "name": "ArgoCD",
+      "category": "DevOps",
+      "synonyms": [
+        "argo cd",
+        "argocd gitops",
+        "argo kubernetes",
+        "argocd"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 72,
+      "name": "Helm",
+      "category": "DevOps",
+      "synonyms": [
+        "helm charts",
+        "kubernetes helm",
+        "helm k8s",
+        "helm package"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 73,
+      "name": "Prometheus",
+      "category": "DevOps",
+      "synonyms": [
+        "prometheus monitoring",
+        "prometheus metrics",
+        "prometheus alerting"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 74,
+      "name": "Grafana",
+      "category": "DevOps",
+      "synonyms": [
+        "grafana dashboard",
+        "grafana monitoring",
+        "grafana visualization"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 75,
+      "name": "Git",
+      "category": "Version Control",
+      "synonyms": [
+        "git version control",
+        "git scm",
+        "github",
+        "gitlab",
+        "bitbucket",
+        "git workflow"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 76,
+      "name": "CI/CD",
+      "category": "DevOps",
+      "synonyms": [
+        "continuous integration",
+        "continuous deployment",
+        "continuous delivery",
+        "cicd pipeline",
+        "ci cd"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 77,
+      "name": "Machine Learning",
+      "category": "AI/ML",
+      "synonyms": [
+        "ml",
+        "machine learning algorithms",
+        "ml models",
+        "predictive modeling",
+        "supervised learning"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 78,
+      "name": "Deep Learning",
+      "category": "AI/ML",
+      "synonyms": [
+        "dl",
+        "neural networks",
+        "deep neural networks",
+        "dnn",
+        "deep learning models"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 79,
+      "name": "TensorFlow",
+      "category": "AI/ML",
+      "synonyms": [
+        "tensorflow 2",
+        "tf2",
+        "tensorflow keras",
+        "tf framework",
+        "tensorflow python"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 80,
+      "name": "PyTorch",
+      "category": "AI/ML",
+      "synonyms": [
+        "pytorch framework",
+        "torch",
+        "facebook pytorch",
+        "pytorch deep learning"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 81,
+      "name": "Scikit-learn",
+      "category": "AI/ML",
+      "synonyms": [
+        "sklearn",
+        "scikit learn",
+        "sci-kit learn",
+        "scikit machine learning"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 82,
+      "name": "Keras",
+      "category": "AI/ML",
+      "synonyms": [
+        "keras api",
+        "keras deep learning",
+        "tf keras",
+        "keras neural network"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 83,
+      "name": "NLP",
+      "category": "AI/ML",
+      "synonyms": [
+        "natural language processing",
+        "text processing",
+        "nlp models",
+        "text analytics",
+        "natural language"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 84,
+      "name": "Computer Vision",
+      "category": "AI/ML",
+      "synonyms": [
+        "cv",
+        "image recognition",
+        "object detection",
+        "image processing ai",
+        "vision ai"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 85,
+      "name": "OpenCV",
+      "category": "AI/ML",
+      "synonyms": [
+        "opencv python",
+        "cv2",
+        "open computer vision",
+        "opencv library"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 86,
+      "name": "Hugging Face",
+      "category": "AI/ML",
+      "synonyms": [
+        "transformers huggingface",
+        "hf transformers",
+        "huggingface hub",
+        "hf models"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 87,
+      "name": "LangChain",
+      "category": "AI/ML",
+      "synonyms": [
+        "langchain llm",
+        "lang chain",
+        "langchain framework",
+        "langchain python"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 88,
+      "name": "OpenAI API",
+      "category": "AI/ML",
+      "synonyms": [
+        "chatgpt api",
+        "gpt api",
+        "openai gpt",
+        "gpt-4",
+        "gpt4 api"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 89,
+      "name": "LLM",
+      "category": "AI/ML",
+      "synonyms": [
+        "large language model",
+        "llms",
+        "foundation models",
+        "generative ai",
+        "llm models"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 90,
+      "name": "MLflow",
+      "category": "AI/ML",
+      "synonyms": [
+        "mlflow tracking",
+        "ml ops mlflow",
+        "mlflow experiments",
+        "mlflow platform"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 91,
+      "name": "Pandas",
+      "category": "Data Science",
+      "synonyms": [
+        "pandas python",
+        "pandas df",
+        "pandas dataframe",
+        "pandas library"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 92,
+      "name": "NumPy",
+      "category": "Data Science",
+      "synonyms": [
+        "numpy python",
+        "np array",
+        "numpy array",
+        "numpy library"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 93,
+      "name": "Matplotlib",
+      "category": "Data Science",
+      "synonyms": [
+        "matplotlib python",
+        "plt",
+        "matplotlib visualization",
+        "matplotlib charts"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 94,
+      "name": "Seaborn",
+      "category": "Data Science",
+      "synonyms": [
+        "seaborn visualization",
+        "sns plots",
+        "seaborn python"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 95,
+      "name": "Plotly",
+      "category": "Data Science",
+      "synonyms": [
+        "plotly dash",
+        "plotly charts",
+        "plotly express",
+        "plotly python"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 96,
+      "name": "Jupyter",
+      "category": "Data Science",
+      "synonyms": [
+        "jupyter notebook",
+        "jupyterlab",
+        "ipynb",
+        "ipython notebook",
+        "jupyter lab"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 97,
+      "name": "Data Analysis",
+      "category": "Data Science",
+      "synonyms": [
+        "exploratory data analysis",
+        "eda",
+        "statistical analysis",
+        "data analytics",
+        "data exploration"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 98,
+      "name": "Data Visualization",
+      "category": "Data Science",
+      "synonyms": [
+        "data viz",
+        "visualization",
+        "charts and graphs",
+        "dashboard creation",
+        "data charts"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 99,
+      "name": "Feature Engineering",
+      "category": "Data Science",
+      "synonyms": [
+        "feature selection",
+        "feature extraction",
+        "feature transformation",
+        "feature design"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 100,
+      "name": "Statistical Modeling",
+      "category": "Data Science",
+      "synonyms": [
+        "statistical analysis",
+        "regression analysis",
+        "hypothesis testing",
+        "inferential statistics",
+        "stats modeling"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 101,
+      "name": "Apache Spark",
+      "category": "Big Data",
+      "synonyms": [
+        "pyspark",
+        "spark streaming",
+        "spark sql",
+        "apache spark big data",
+        "spark cluster"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 102,
+      "name": "Hadoop",
+      "category": "Big Data",
+      "synonyms": [
+        "apache hadoop",
+        "hdfs",
+        "mapreduce",
+        "hadoop ecosystem",
+        "hadoop cluster"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 103,
+      "name": "Kafka",
+      "category": "Big Data",
+      "synonyms": [
+        "apache kafka",
+        "kafka streaming",
+        "kafka queue",
+        "event streaming kafka",
+        "kafka cluster"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 104,
+      "name": "Airflow",
+      "category": "Big Data",
+      "synonyms": [
+        "apache airflow",
+        "airflow dags",
+        "airflow orchestration",
+        "airflow pipeline"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 105,
+      "name": "dbt",
+      "category": "Big Data",
+      "synonyms": [
+        "dbt core",
+        "data build tool",
+        "dbt sql",
+        "analytics engineering",
+        "dbt models"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 106,
+      "name": "Snowflake",
+      "category": "Big Data",
+      "synonyms": [
+        "snowflake dwh",
+        "snowflake cloud",
+        "snowflake sql",
+        "snowflake data warehouse"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 107,
+      "name": "ETL",
+      "category": "Big Data",
+      "synonyms": [
+        "extract transform load",
+        "etl pipeline",
+        "data pipeline",
+        "data integration",
+        "etl process"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 108,
+      "name": "Power BI",
+      "category": "BI Tools",
+      "synonyms": [
+        "powerbi",
+        "microsoft power bi",
+        "power bi desktop",
+        "power bi dax",
+        "powerbi reports"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 109,
+      "name": "Tableau",
+      "category": "BI Tools",
+      "synonyms": [
+        "tableau desktop",
+        "tableau server",
+        "tableau prep",
+        "tableau visualization"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 110,
+      "name": "Looker",
+      "category": "BI Tools",
+      "synonyms": [
+        "looker studio",
+        "google looker",
+        "lookml",
+        "looker bi"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 111,
+      "name": "Microservices",
+      "category": "Architecture",
+      "synonyms": [
+        "microservice architecture",
+        "service oriented",
+        "distributed services",
+        "microservices design",
+        "microservice pattern"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 112,
+      "name": "System Design",
+      "category": "Architecture",
+      "synonyms": [
+        "distributed systems",
+        "high level design",
+        "low level design",
+        "system architecture",
+        "scalable design"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 113,
+      "name": "Event-Driven Architecture",
+      "category": "Architecture",
+      "synonyms": [
+        "eda",
+        "event driven",
+        "event sourcing",
+        "event bus",
+        "event-driven design"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 114,
+      "name": "Domain-Driven Design",
+      "category": "Architecture",
+      "synonyms": [
+        "ddd",
+        "domain driven",
+        "bounded context",
+        "aggregate ddd",
+        "ddd design"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 115,
+      "name": "OAuth",
+      "category": "Security",
+      "synonyms": [
+        "oauth2",
+        "oauth 2.0",
+        "authorization framework",
+        "oauth flow",
+        "oauth token"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 116,
+      "name": "JWT",
+      "category": "Security",
+      "synonyms": [
+        "json web token",
+        "jwt auth",
+        "jwt authentication",
+        "jwt token"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 117,
+      "name": "Cybersecurity",
+      "category": "Security",
+      "synonyms": [
+        "security",
+        "information security",
+        "infosec",
+        "cyber security",
+        "it security"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 118,
+      "name": "Penetration Testing",
+      "category": "Security",
+      "synonyms": [
+        "pentesting",
+        "pen testing",
+        "ethical hacking",
+        "vulnerability assessment",
+        "pentest"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 119,
+      "name": "React Native",
+      "category": "Mobile",
+      "synonyms": [
+        "react-native",
+        "rn",
+        "cross platform react native",
+        "react native mobile"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 120,
+      "name": "Flutter",
+      "category": "Mobile",
+      "synonyms": [
+        "flutter dart",
+        "google flutter",
+        "flutter mobile",
+        "flutter framework"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 121,
+      "name": "iOS Development",
+      "category": "Mobile",
+      "synonyms": [
+        "ios dev",
+        "xcode",
+        "swift ios",
+        "swiftui",
+        "uikit",
+        "ios programming"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 122,
+      "name": "Android Development",
+      "category": "Mobile",
+      "synonyms": [
+        "android dev",
+        "android studio",
+        "kotlin android",
+        "java android",
+        "jetpack compose"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 123,
+      "name": "Agile",
+      "category": "Methodology",
+      "synonyms": [
+        "agile methodology",
+        "scrum",
+        "kanban",
+        "agile scrum",
+        "sprint planning",
+        "agile development"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 124,
+      "name": "Scrum",
+      "category": "Methodology",
+      "synonyms": [
+        "scrum master",
+        "sprint",
+        "daily standup",
+        "scrum framework",
+        "agile scrum team"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 125,
+      "name": "TDD",
+      "category": "Methodology",
+      "synonyms": [
+        "test driven development",
+        "tdd approach",
+        "test first development",
+        "tdd methodology"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 126,
+      "name": "DevOps",
+      "category": "Methodology",
+      "synonyms": [
+        "devops culture",
+        "dev ops",
+        "devops practices",
+        "software delivery",
+        "devops engineering"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 127,
+      "name": "Unit Testing",
+      "category": "Testing",
+      "synonyms": [
+        "unit tests",
+        "junit",
+        "pytest",
+        "jest testing",
+        "mocha",
+        "jasmine",
+        "unit test"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 128,
+      "name": "Integration Testing",
+      "category": "Testing",
+      "synonyms": [
+        "integration tests",
+        "api testing",
+        "service testing",
+        "integration test"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 129,
+      "name": "Selenium",
+      "category": "Testing",
+      "synonyms": [
+        "selenium webdriver",
+        "selenium testing",
+        "selenium automation",
+        "selenium ui testing"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 130,
+      "name": "Cypress",
+      "category": "Testing",
+      "synonyms": [
+        "cypress testing",
+        "cypress e2e",
+        "cypress automation",
+        "cypress framework"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 131,
+      "name": "Jest",
+      "category": "Testing",
+      "synonyms": [
+        "jestjs",
+        "jest framework",
+        "jest react testing",
+        "jest unit test"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 132,
+      "name": "Postman",
+      "category": "Testing",
+      "synonyms": [
+        "postman api",
+        "api testing postman",
+        "postman collections",
+        "postman testing"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 133,
+      "name": "Linux",
+      "category": "Systems",
+      "synonyms": [
+        "unix",
+        "linux os",
+        "ubuntu",
+        "centos",
+        "debian",
+        "rhel",
+        "linux server",
+        "linux administration"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 134,
+      "name": "Nginx",
+      "category": "Systems",
+      "synonyms": [
+        "nginx server",
+        "nginx proxy",
+        "nginx web server",
+        "nginx config",
+        "nginx reverse proxy"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 135,
+      "name": "Networking",
+      "category": "Systems",
+      "synonyms": [
+        "tcp/ip",
+        "networking protocols",
+        "dns",
+        "http/https",
+        "load balancing",
+        "network engineering"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 136,
+      "name": "Cloud Architecture",
+      "category": "Cloud",
+      "synonyms": [
+        "cloud design patterns",
+        "cloud native",
+        "cloud solutions architect",
+        "well-architected",
+        "cloud design"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 137,
+      "name": "Serverless",
+      "category": "Cloud",
+      "synonyms": [
+        "aws lambda",
+        "azure functions",
+        "google cloud functions",
+        "faas",
+        "serverless architecture",
+        "lambda functions"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 138,
+      "name": "Design Patterns",
+      "category": "Software Engineering",
+      "synonyms": [
+        "gof patterns",
+        "solid principles",
+        "oop patterns",
+        "software patterns",
+        "design principles",
+        "gang of four"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 139,
+      "name": "Object-Oriented Programming",
+      "category": "Software Engineering",
+      "synonyms": [
+        "oop",
+        "object oriented",
+        "oop concepts",
+        "encapsulation",
+        "polymorphism",
+        "inheritance",
+        "oo design"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 140,
+      "name": "Data Structures",
+      "category": "Software Engineering",
+      "synonyms": [
+        "dsa",
+        "algorithms",
+        "data structures algorithms",
+        "complexity analysis",
+        "big o",
+        "dsa problems"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 141,
+      "name": "Algorithms",
+      "category": "Software Engineering",
+      "synonyms": [
+        "algorithm design",
+        "sorting algorithms",
+        "search algorithms",
+        "dynamic programming",
+        "graph algorithms"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 142,
+      "name": "Code Review",
+      "category": "Software Engineering",
+      "synonyms": [
+        "peer review",
+        "pull request review",
+        "code quality review",
+        "pr review"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 143,
+      "name": "Technical Leadership",
+      "category": "Leadership",
+      "synonyms": [
+        "tech lead",
+        "engineering lead",
+        "technical manager",
+        "staff engineer",
+        "principal engineer",
+        "tech leadership"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 144,
+      "name": "Project Management",
+      "category": "Leadership",
+      "synonyms": [
+        "pm",
+        "project planning",
+        "project delivery",
+        "pmp",
+        "project coordination",
+        "project manager"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 145,
+      "name": "Team Management",
+      "category": "Leadership",
+      "synonyms": [
+        "people management",
+        "team lead",
+        "managing engineers",
+        "team leadership",
+        "engineering manager"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 146,
+      "name": "Figma",
+      "category": "Design",
+      "synonyms": [
+        "figma design",
+        "ui design figma",
+        "figma prototyping",
+        "figma ui"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 147,
+      "name": "UI/UX Design",
+      "category": "Design",
+      "synonyms": [
+        "user interface design",
+        "user experience",
+        "ux design",
+        "ui design",
+        "product design",
+        "ux/ui"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 148,
+      "name": "Blockchain",
+      "category": "Web3",
+      "synonyms": [
+        "distributed ledger",
+        "blockchain technology",
+        "crypto",
+        "defi",
+        "web3",
+        "blockchain development"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 149,
+      "name": "Solidity",
+      "category": "Web3",
+      "synonyms": [
+        "solidity ethereum",
+        "smart contracts",
+        "ethereum development",
+        "evm",
+        "smart contract dev"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 150,
+      "name": "TypeORM",
+      "category": "Database",
+      "synonyms": [
+        "typeorm orm",
+        "typeorm entities",
+        "typeorm migrations",
+        "typeorm framework"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 151,
+      "name": "Prisma",
+      "category": "Database",
+      "synonyms": [
+        "prisma orm",
+        "prisma client",
+        "prisma schema",
+        "prisma database"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 152,
+      "name": "SQLAlchemy",
+      "category": "Database",
+      "synonyms": [
+        "sqlalchemy orm",
+        "python sqlalchemy",
+        "alembic",
+        "sqlalchemy python"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 153,
+      "name": "Hibernate",
+      "category": "Database",
+      "synonyms": [
+        "hibernate orm",
+        "jpa hibernate",
+        "spring data jpa",
+        "java orm",
+        "hibernate java"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 154,
+      "name": "Databricks",
+      "category": "Big Data",
+      "synonyms": [
+        "databricks spark",
+        "databricks lakehouse",
+        "databricks platform",
+        "databricks delta"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 155,
+      "name": "MLOps",
+      "category": "AI/ML",
+      "synonyms": [
+        "ml operations",
+        "model deployment",
+        "model monitoring",
+        "machine learning ops",
+        "ml lifecycle",
+        "mlops platform"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 156,
+      "name": "Vector Database",
+      "category": "AI/ML",
+      "synonyms": [
+        "vector db",
+        "embeddings database",
+        "pinecone",
+        "weaviate",
+        "chromadb",
+        "qdrant",
+        "vector store"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 157,
+      "name": "RAG",
+      "category": "AI/ML",
+      "synonyms": [
+        "retrieval augmented generation",
+        "rag pipeline",
+        "rag architecture",
+        "retrieval augmentation",
+        "rag system"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 158,
+      "name": "Prompt Engineering",
+      "category": "AI/ML",
+      "synonyms": [
+        "prompt design",
+        "few-shot prompting",
+        "chain of thought",
+        "prompt optimization",
+        "llm prompting"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 159,
+      "name": "Generative AI",
+      "category": "AI/ML",
+      "synonyms": [
+        "genai",
+        "generative models",
+        "diffusion models",
+        "stable diffusion",
+        "gen ai",
+        "generative ai models"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 160,
+      "name": "XGBoost",
+      "category": "AI/ML",
+      "synonyms": [
+        "xgboost model",
+        "gradient boosting xgb",
+        "xgb classifier",
+        "xgboost algorithm"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 161,
+      "name": "BERT",
+      "category": "AI/ML",
+      "synonyms": [
+        "bert model",
+        "google bert",
+        "bert nlp",
+        "bert embeddings",
+        "bert transformer"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 162,
+      "name": "Transformers",
+      "category": "AI/ML",
+      "synonyms": [
+        "transformer architecture",
+        "attention mechanism",
+        "vision transformer",
+        "transformer models",
+        "self-attention"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 163,
+      "name": "Reinforcement Learning",
+      "category": "AI/ML",
+      "synonyms": [
+        "rl",
+        "deep rl",
+        "q-learning",
+        "policy gradient",
+        "rl agent",
+        "reinforcement learning ai"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 164,
+      "name": "Time Series Analysis",
+      "category": "Data Science",
+      "synonyms": [
+        "time series",
+        "forecasting",
+        "arima",
+        "lstm time series",
+        "temporal data",
+        "time series forecasting"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 165,
+      "name": "A/B Testing",
+      "category": "Data Science",
+      "synonyms": [
+        "ab testing",
+        "split testing",
+        "experimentation platform",
+        "hypothesis testing ab",
+        "a b testing"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 166,
+      "name": "Data Warehousing",
+      "category": "Big Data",
+      "synonyms": [
+        "data warehouse",
+        "dwh",
+        "olap",
+        "columnar storage",
+        "analytical database",
+        "data warehouse design"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 167,
+      "name": "Celery",
+      "category": "Backend Framework",
+      "synonyms": [
+        "celery tasks",
+        "celery worker",
+        "async tasks celery",
+        "task queue celery",
+        "celery queue"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 168,
+      "name": "Datadog",
+      "category": "Monitoring",
+      "synonyms": [
+        "datadog monitoring",
+        "datadog apm",
+        "datadog logs",
+        "datadog metrics"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 169,
+      "name": "ELK Stack",
+      "category": "Monitoring",
+      "synonyms": [
+        "elasticsearch logstash kibana",
+        "elk",
+        "elastic stack",
+        "logging elk",
+        "elk monitoring"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 170,
+      "name": "OpenTelemetry",
+      "category": "Monitoring",
+      "synonyms": [
+        "otel",
+        "opentelemetry traces",
+        "observability otel",
+        "otel monitoring"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 171,
+      "name": "Storybook",
+      "category": "Frontend",
+      "synonyms": [
+        "storybook components",
+        "component storybook",
+        "react storybook",
+        "storybook ui"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 172,
+      "name": "React Query",
+      "category": "Frontend",
+      "synonyms": [
+        "tanstack query",
+        "react query hooks",
+        "server state management",
+        "tanstack react query"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 173,
+      "name": "Three.js",
+      "category": "Frontend",
+      "synonyms": [
+        "threejs",
+        "3d web",
+        "webgl three",
+        "3d javascript",
+        "threejs webgl"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 174,
+      "name": "WebAssembly",
+      "category": "Frontend",
+      "synonyms": [
+        "wasm",
+        "webassembly module",
+        "wasm runtime",
+        "web assembly"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 175,
+      "name": "PWA",
+      "category": "Frontend",
+      "synonyms": [
+        "progressive web app",
+        "service workers",
+        "web app manifest",
+        "pwa development",
+        "progressive web application"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 176,
+      "name": "Webpack",
+      "category": "Frontend Build",
+      "synonyms": [
+        "webpack bundler",
+        "module bundler",
+        "webpack config",
+        "webpack build"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 177,
+      "name": "Vite",
+      "category": "Frontend Build",
+      "synonyms": [
+        "vite build",
+        "vitejs",
+        "vite bundler",
+        "vite react",
+        "vite framework"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 178,
+      "name": "ESLint",
+      "category": "Code Quality",
+      "synonyms": [
+        "eslint linting",
+        "js linting",
+        "code linting eslint",
+        "eslint config"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 179,
+      "name": "SonarQube",
+      "category": "Code Quality",
+      "synonyms": [
+        "sonar",
+        "code quality sonar",
+        "static analysis sonarqube",
+        "sonar analysis"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 180,
+      "name": "IoT",
+      "category": "Embedded",
+      "synonyms": [
+        "internet of things",
+        "iot development",
+        "connected devices",
+        "edge computing iot",
+        "iot platform"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 181,
+      "name": "Salesforce",
+      "category": "CRM",
+      "synonyms": [
+        "sfdc",
+        "salesforce crm",
+        "apex salesforce",
+        "salesforce development",
+        "salesforce platform"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 182,
+      "name": "SAP",
+      "category": "ERP",
+      "synonyms": [
+        "sap erp",
+        "sap hana",
+        "sapui5",
+        "sap abap",
+        "sap modules",
+        "sap system"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 183,
+      "name": "Jira",
+      "category": "Tools",
+      "synonyms": [
+        "jira software",
+        "jira boards",
+        "jira project management",
+        "atlassian jira",
+        "jira agile"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 184,
+      "name": "Confluence",
+      "category": "Tools",
+      "synonyms": [
+        "atlassian confluence",
+        "confluence documentation",
+        "confluence wiki",
+        "confluence pages"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 185,
+      "name": "Data Modeling",
+      "category": "Database",
+      "synonyms": [
+        "er diagrams",
+        "entity relationship",
+        "dimensional modeling",
+        "data schema design",
+        "normalization",
+        "database modeling"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 186,
+      "name": "API Design",
+      "category": "Software Engineering",
+      "synonyms": [
+        "api architecture",
+        "api first design",
+        "restful api design",
+        "api versioning",
+        "openapi design",
+        "api specification"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 187,
+      "name": "Performance Optimization",
+      "category": "Software Engineering",
+      "synonyms": [
+        "performance tuning",
+        "code optimization",
+        "latency reduction",
+        "throughput optimization",
+        "profiling",
+        "performance engineering"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 188,
+      "name": "Web Security",
+      "category": "Security",
+      "synonyms": [
+        "xss",
+        "csrf",
+        "sql injection",
+        "secure coding",
+        "web app security",
+        "owasp security",
+        "injection attacks"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 189,
+      "name": "Encryption",
+      "category": "Security",
+      "synonyms": [
+        "aes encryption",
+        "rsa encryption",
+        "end-to-end encryption",
+        "cryptography",
+        "pgp encryption",
+        "crypto"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 190,
+      "name": "DevSecOps",
+      "category": "Security",
+      "synonyms": [
+        "security in devops",
+        "shift left security",
+        "devsecops pipeline",
+        "secure sdlc",
+        "security devops"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 191,
+      "name": "Unity",
+      "category": "Game Development",
+      "synonyms": [
+        "unity3d",
+        "unity game engine",
+        "unity c#",
+        "unity game dev",
+        "unity development"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 192,
+      "name": "RabbitMQ",
+      "category": "Messaging",
+      "synonyms": [
+        "rabbit mq",
+        "rabbitmq broker",
+        "amqp rabbitmq",
+        "rabbitmq messaging"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 193,
+      "name": "Load Balancing",
+      "category": "Infrastructure",
+      "synonyms": [
+        "load balancer",
+        "traffic distribution",
+        "horizontal scaling",
+        "round robin",
+        "haproxy",
+        "nginx load"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 194,
+      "name": "Service Mesh",
+      "category": "Infrastructure",
+      "synonyms": [
+        "istio service mesh",
+        "linkerd",
+        "consul connect",
+        "sidecar proxy",
+        "istio"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 195,
+      "name": "GitOps",
+      "category": "DevOps",
+      "synonyms": [
+        "git ops",
+        "gitops workflow",
+        "fluxcd",
+        "argocd gitops",
+        "gitops practices"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 196,
+      "name": "SRE",
+      "category": "DevOps",
+      "synonyms": [
+        "site reliability engineering",
+        "sre practices",
+        "reliability engineering",
+        "on-call sre",
+        "site reliability"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 197,
+      "name": "Database Optimization",
+      "category": "Database",
+      "synonyms": [
+        "query optimization",
+        "database tuning",
+        "index optimization",
+        "query performance",
+        "sql optimization"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 198,
+      "name": "Caching Strategies",
+      "category": "Architecture",
+      "synonyms": [
+        "cache invalidation",
+        "cache aside",
+        "write through cache",
+        "distributed cache",
+        "memoization",
+        "caching"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 199,
+      "name": "Distributed Systems",
+      "category": "Architecture",
+      "synonyms": [
+        "distributed computing",
+        "cap theorem",
+        "consensus algorithms",
+        "paxos raft",
+        "distributed databases"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 200,
+      "name": "High Availability",
+      "category": "Architecture",
+      "synonyms": [
+        "ha systems",
+        "fault tolerance",
+        "99.99% uptime",
+        "redundancy",
+        "failover",
+        "high availability design"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 201,
+      "name": "Concurrency",
+      "category": "Systems",
+      "synonyms": [
+        "multithreading",
+        "async await",
+        "coroutines",
+        "event loop",
+        "futures promises",
+        "concurrent programming"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 202,
+      "name": "Communication",
+      "category": "Soft Skills",
+      "synonyms": [
+        "verbal communication",
+        "written communication",
+        "interpersonal skills",
+        "stakeholder communication",
+        "presentation skills"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 203,
+      "name": "Problem Solving",
+      "category": "Soft Skills",
+      "synonyms": [
+        "analytical thinking",
+        "critical thinking",
+        "analytical skills",
+        "root cause analysis",
+        "troubleshooting"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 204,
+      "name": "Collaboration",
+      "category": "Soft Skills",
+      "synonyms": [
+        "teamwork",
+        "cross-functional collaboration",
+        "working with teams",
+        "cooperative skills",
+        "team collaboration"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 205,
+      "name": "AWS Lambda",
+      "category": "Cloud",
+      "synonyms": [
+        "lambda functions",
+        "serverless aws",
+        "aws serverless",
+        "lambda serverless"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 206,
+      "name": "AWS S3",
+      "category": "Cloud",
+      "synonyms": [
+        "s3 bucket",
+        "amazon s3",
+        "aws storage",
+        "s3 storage"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 207,
+      "name": "AWS EC2",
+      "category": "Cloud",
+      "synonyms": [
+        "ec2 instances",
+        "amazon ec2",
+        "aws compute",
+        "ec2 vm"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 208,
+      "name": "AWS EKS",
+      "category": "Cloud",
+      "synonyms": [
+        "elastic kubernetes service",
+        "aws kubernetes",
+        "eks cluster",
+        "eks kubernetes"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 209,
+      "name": "Functional Programming",
+      "category": "Software Engineering",
+      "synonyms": [
+        "fp",
+        "functional paradigm",
+        "pure functions",
+        "immutability",
+        "lambdas",
+        "functional design"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 210,
+      "name": "Microcontrollers",
+      "category": "Embedded",
+      "synonyms": [
+        "arduino",
+        "raspberry pi",
+        "embedded systems",
+        "iot hardware",
+        "esp32",
+        "microcontroller programming"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 211,
+      "name": "MQTT",
+      "category": "Embedded",
+      "synonyms": [
+        "mqtt protocol",
+        "iot messaging",
+        "mosquitto mqtt",
+        "mqtt broker"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 212,
+      "name": "Auth0",
+      "category": "Authentication",
+      "synonyms": [
+        "auth0 authentication",
+        "auth0 identity",
+        "okta auth0",
+        "auth zero"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 213,
+      "name": "SAML",
+      "category": "Authentication",
+      "synonyms": [
+        "saml sso",
+        "saml authentication",
+        "saml 2.0",
+        "single sign-on",
+        "saml protocol"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 214,
+      "name": "CDN",
+      "category": "Infrastructure",
+      "synonyms": [
+        "content delivery network",
+        "cloudfront",
+        "akamai",
+        "fastly cdn",
+        "cdn network"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 215,
+      "name": "API Gateway",
+      "category": "Architecture",
+      "synonyms": [
+        "aws api gateway",
+        "kong gateway",
+        "apigee",
+        "api management",
+        "api gateway pattern"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 216,
+      "name": "Feature Flags",
+      "category": "DevOps",
+      "synonyms": [
+        "feature toggles",
+        "launchdarkly",
+        "feature rollout",
+        "gradual deployment",
+        "feature flag system"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 217,
+      "name": "Observability",
+      "category": "Monitoring",
+      "synonyms": [
+        "o11y",
+        "three pillars observability",
+        "metrics logs traces",
+        "distributed observability",
+        "observability platform"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 218,
+      "name": "Incident Management",
+      "category": "DevOps",
+      "synonyms": [
+        "pagerduty",
+        "on-call",
+        "incident response",
+        "postmortem",
+        "runbooks",
+        "blameless postmortem"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 219,
+      "name": "Technical Writing",
+      "category": "Soft Skills",
+      "synonyms": [
+        "documentation",
+        "api documentation",
+        "technical docs",
+        "knowledge base writing",
+        "technical documentation"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 220,
+      "name": "Mentoring",
+      "category": "Soft Skills",
+      "synonyms": [
+        "coaching",
+        "engineer mentorship",
+        "junior developer guidance",
+        "tech mentoring",
+        "mentorship"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 221,
+      "name": "Zustand",
+      "category": "Frontend",
+      "synonyms": [
+        "zustand state",
+        "zustand store",
+        "react zustand",
+        "zustand management"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 222,
+      "name": "tRPC",
+      "category": "API",
+      "synonyms": [
+        "trpc api",
+        "typesafe trpc",
+        "end-to-end type safety trpc",
+        "trpc framework"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 223,
+      "name": "OpenAPI",
+      "category": "API",
+      "synonyms": [
+        "swagger",
+        "openapi spec",
+        "swagger ui",
+        "api documentation swagger",
+        "swagger docs"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 224,
+      "name": "Stripe",
+      "category": "Payments",
+      "synonyms": [
+        "stripe api",
+        "stripe payments",
+        "stripe integration",
+        "stripe checkout"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 225,
+      "name": "Twilio",
+      "category": "Communications",
+      "synonyms": [
+        "twilio api",
+        "twilio sms",
+        "twilio voice",
+        "twilio messaging",
+        "twilio platform"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 226,
+      "name": "Recommendation Systems",
+      "category": "AI/ML",
+      "synonyms": [
+        "recommender systems",
+        "collaborative filtering",
+        "content based filtering",
+        "matrix factorization",
+        "recommendation engine"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 227,
+      "name": "Anomaly Detection",
+      "category": "AI/ML",
+      "synonyms": [
+        "outlier detection",
+        "fraud detection",
+        "anomaly algorithms",
+        "anomaly ml",
+        "anomaly detection system"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 228,
+      "name": "Google BigQuery",
+      "category": "Big Data",
+      "synonyms": [
+        "bigquery gcp",
+        "bq sql",
+        "google bigquery analytics",
+        "bigquery"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 229,
+      "name": "Apache Flink",
+      "category": "Big Data",
+      "synonyms": [
+        "flink streaming",
+        "flink data processing",
+        "apache flink sql",
+        "flink"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 230,
+      "name": "Parallel Computing",
+      "category": "Systems",
+      "synonyms": [
+        "parallel processing",
+        "concurrent programming",
+        "multithreading",
+        "multiprocessing",
+        "parallel algorithms"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 231,
+      "name": "Compiler Design",
+      "category": "Systems",
+      "synonyms": [
+        "compiler construction",
+        "lexer parser",
+        "abstract syntax tree",
+        "llvm",
+        "code generation",
+        "compiler theory"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 232,
+      "name": "CUDA",
+      "category": "GPU Computing",
+      "synonyms": [
+        "cuda programming",
+        "gpu computing",
+        "nvidia cuda",
+        "parallel gpu",
+        "cuda kernels"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 233,
+      "name": "Chaos Engineering",
+      "category": "DevOps",
+      "synonyms": [
+        "chaos monkey",
+        "fault injection",
+        "chaos testing",
+        "netflix chaos",
+        "chaos experiments"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 234,
+      "name": "Delta Lake",
+      "category": "Big Data",
+      "synonyms": [
+        "delta table",
+        "lakehouse architecture",
+        "delta format",
+        "delta lake storage"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 235,
+      "name": "Pydantic",
+      "category": "Backend Framework",
+      "synonyms": [
+        "pydantic validation",
+        "pydantic models",
+        "python pydantic",
+        "pydantic schema"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 236,
+      "name": "Apache Beam",
+      "category": "Big Data",
+      "synonyms": [
+        "beam pipeline",
+        "dataflow beam",
+        "unified batch streaming",
+        "beam framework"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 237,
+      "name": "Geospatial Analysis",
+      "category": "Data Science",
+      "synonyms": [
+        "gis",
+        "geospatial data",
+        "spatial analysis",
+        "postgis",
+        "geopandas",
+        "mapping data",
+        "geo analysis"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 238,
+      "name": "Bayesian Methods",
+      "category": "Data Science",
+      "synonyms": [
+        "bayesian statistics",
+        "mcmc",
+        "probabilistic programming",
+        "bayesian inference",
+        "pymc",
+        "bayesian analysis"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 239,
+      "name": "AR/VR Development",
+      "category": "Emerging Tech",
+      "synonyms": [
+        "augmented reality",
+        "virtual reality",
+        "xr development",
+        "mixed reality",
+        "arvr",
+        "ar vr"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 240,
+      "name": "Robotics",
+      "category": "Robotics",
+      "synonyms": [
+        "ros",
+        "autonomous vehicles",
+        "robot programming",
+        "drone programming",
+        "robotic systems"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 241,
+      "name": "Low Code",
+      "category": "Engineering",
+      "synonyms": [
+        "low code platforms",
+        "no code",
+        "automation platforms",
+        "low-code development",
+        "no-code tools"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 242,
+      "name": "Pair Programming",
+      "category": "Methodology",
+      "synonyms": [
+        "pair coding",
+        "mob programming",
+        "collaborative coding",
+        "driver navigator",
+        "xp programming"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 243,
+      "name": "Architecture Decision Records",
+      "category": "Software Engineering",
+      "synonyms": [
+        "adr",
+        "architecture decisions",
+        "decision log",
+        "technical decisions",
+        "adr documents"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 244,
+      "name": "Load Testing",
+      "category": "Testing",
+      "synonyms": [
+        "performance testing",
+        "jmeter",
+        "k6",
+        "locust testing",
+        "stress testing",
+        "gatling",
+        "load test"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 245,
+      "name": "Security Testing",
+      "category": "Testing",
+      "synonyms": [
+        "sast dast",
+        "security scan",
+        "vulnerability scanning",
+        "zap testing",
+        "sonarqube security",
+        "security audit"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 246,
+      "name": "ClickUp",
+      "category": "Tools",
+      "synonyms": [
+        "clickup pm",
+        "clickup tasks",
+        "project management clickup",
+        "clickup software"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 247,
+      "name": "Notion",
+      "category": "Tools",
+      "synonyms": [
+        "notion workspace",
+        "notion docs",
+        "notion database",
+        "notion pages"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 248,
+      "name": "Design Systems",
+      "category": "Design",
+      "synonyms": [
+        "component library",
+        "design tokens",
+        "ui component system",
+        "style guide",
+        "design system"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 249,
+      "name": "User Research",
+      "category": "Design",
+      "synonyms": [
+        "usability testing",
+        "user interviews",
+        "ux research",
+        "user testing",
+        "persona creation",
+        "user research methods"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 250,
+      "name": "Conversational AI",
+      "category": "AI/ML",
+      "synonyms": [
+        "chatbot development",
+        "dialogue systems",
+        "conversational design",
+        "voice assistants",
+        "chatbot ai"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 251,
+      "name": "Edge AI",
+      "category": "AI/ML",
+      "synonyms": [
+        "edge inference",
+        "tinyml",
+        "on-device ai",
+        "edge machine learning",
+        "embedded ai"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 252,
+      "name": "Fine-tuning",
+      "category": "AI/ML",
+      "synonyms": [
+        "model fine-tuning",
+        "llm fine tuning",
+        "rlhf",
+        "lora fine-tuning",
+        "finetuning llm"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 253,
+      "name": "Knowledge Graphs",
+      "category": "AI/ML",
+      "synonyms": [
+        "kg",
+        "knowledge base",
+        "ontology",
+        "semantic graph",
+        "knowledge graph design"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 254,
+      "name": "Speech Recognition",
+      "category": "AI/ML",
+      "synonyms": [
+        "asr",
+        "speech to text",
+        "whisper openai",
+        "voice recognition",
+        "audio processing"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 255,
+      "name": "Multi-cloud",
+      "category": "Cloud",
+      "synonyms": [
+        "multi cloud strategy",
+        "hybrid cloud",
+        "cross-cloud",
+        "cloud agnostic",
+        "multi cloud architecture"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 256,
+      "name": "Cost Optimization",
+      "category": "Cloud",
+      "synonyms": [
+        "cloud cost",
+        "reserved instances",
+        "spot instances",
+        "right sizing",
+        "cost reduction cloud",
+        "finops"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 257,
+      "name": "Compliance",
+      "category": "Security",
+      "synonyms": [
+        "gdpr",
+        "sox",
+        "hipaa",
+        "pci dss",
+        "iso 27001",
+        "compliance standards",
+        "regulatory compliance"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 258,
+      "name": "Zero Trust",
+      "category": "Security",
+      "synonyms": [
+        "zero trust security",
+        "zero trust architecture",
+        "ztna",
+        "zero trust network",
+        "zero trust model"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 259,
+      "name": "SIEM",
+      "category": "Security",
+      "synonyms": [
+        "security information event management",
+        "splunk",
+        "qradar",
+        "siem tools",
+        "siem platform"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 260,
+      "name": "Technical Debt",
+      "category": "Software Engineering",
+      "synonyms": [
+        "code refactoring",
+        "legacy code",
+        "codebase modernization",
+        "technical debt management",
+        "code debt"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 261,
+      "name": "Monorepo",
+      "category": "Software Engineering",
+      "synonyms": [
+        "nx monorepo",
+        "turborepo",
+        "lerna",
+        "monorepo architecture",
+        "pnpm workspaces",
+        "monorepo tools"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 262,
+      "name": "Micro Frontend",
+      "category": "Frontend",
+      "synonyms": [
+        "micro frontends",
+        "module federation",
+        "federated modules",
+        "frontend architecture micro",
+        "microfrontend"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 263,
+      "name": "Web Performance",
+      "category": "Frontend",
+      "synonyms": [
+        "core web vitals",
+        "lcp fid cls",
+        "lighthouse score",
+        "page performance",
+        "web optimization",
+        "page speed"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 264,
+      "name": "Accessibility",
+      "category": "Frontend",
+      "synonyms": [
+        "wcag",
+        "a11y",
+        "aria labels",
+        "screen readers",
+        "web accessibility",
+        "accessibility testing"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 265,
+      "name": "Internationalization",
+      "category": "Frontend",
+      "synonyms": [
+        "i18n",
+        "localization",
+        "l10n",
+        "multi-language support",
+        "translation",
+        "globalization"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 266,
+      "name": "SLI/SLO/SLA",
+      "category": "DevOps",
+      "synonyms": [
+        "service level indicators",
+        "service level objectives",
+        "reliability targets",
+        "error budgets",
+        "slo sli"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 267,
+      "name": "Blue-Green Deployment",
+      "category": "DevOps",
+      "synonyms": [
+        "blue green",
+        "zero downtime deployment",
+        "traffic switching deployment",
+        "deployment strategy",
+        "blue green deploy"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 268,
+      "name": "Canary Deployment",
+      "category": "DevOps",
+      "synonyms": [
+        "canary release",
+        "progressive rollout",
+        "gradual traffic shift",
+        "canary testing",
+        "canary deploy"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 269,
+      "name": "Event Streaming",
+      "category": "Messaging",
+      "synonyms": [
+        "event stream",
+        "streaming platform",
+        "stream processing",
+        "real-time streaming",
+        "event driven streaming"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 270,
+      "name": "Message Queues",
+      "category": "Messaging",
+      "synonyms": [
+        "message queue",
+        "mq",
+        "async messaging",
+        "producer consumer",
+        "pub sub",
+        "message broker"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 271,
+      "name": "Protobuf",
+      "category": "API",
+      "synonyms": [
+        "protocol buffers",
+        "proto files",
+        "google protobuf",
+        "protobuf schema",
+        "protobuf serialization"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 272,
+      "name": "AWS CDK",
+      "category": "IaC",
+      "synonyms": [
+        "cloud development kit",
+        "cdk typescript",
+        "cdk python",
+        "aws infrastructure code",
+        "cdk stack"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 273,
+      "name": "Pulumi",
+      "category": "IaC",
+      "synonyms": [
+        "pulumi typescript",
+        "pulumi python",
+        "iac pulumi",
+        "pulumi stack",
+        "pulumi infrastructure"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 274,
+      "name": "Apache POI",
+      "category": "Java",
+      "synonyms": [
+        "poi excel",
+        "poi word",
+        "apache poi library",
+        "poi docx",
+        "poi xlsx"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 275,
+      "name": "PDFBox",
+      "category": "Java",
+      "synonyms": [
+        "apache pdfbox",
+        "pdfbox pdf",
+        "pdf parsing java",
+        "pdfbox library",
+        "java pdf"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 276,
+      "name": "Spring Security",
+      "category": "Java",
+      "synonyms": [
+        "spring security config",
+        "spring oauth",
+        "spring jwt",
+        "spring authentication",
+        "spring security framework"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 277,
+      "name": "Spring Data JPA",
+      "category": "Java",
+      "synonyms": [
+        "jpa spring",
+        "spring data",
+        "hibernate spring",
+        "spring data repository",
+        "jpa repositories"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 278,
+      "name": "Spring MVC",
+      "category": "Java",
+      "synonyms": [
+        "spring mvc framework",
+        "spring web mvc",
+        "spring controllers",
+        "springmvc",
+        "spring rest controller"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 279,
+      "name": "Maven",
+      "category": "Java",
+      "synonyms": [
+        "apache maven",
+        "maven build",
+        "maven pom",
+        "mvn",
+        "maven project"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 280,
+      "name": "Gradle",
+      "category": "Java",
+      "synonyms": [
+        "gradle build",
+        "gradle kotlin",
+        "groovy gradle",
+        "gradle project",
+        "gradle wrapper"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 281,
+      "name": "JUnit",
+      "category": "Java",
+      "synonyms": [
+        "junit5",
+        "junit testing",
+        "junit4",
+        "java unit test",
+        "junit framework"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 282,
+      "name": "Mockito",
+      "category": "Java",
+      "synonyms": [
+        "mockito java",
+        "java mocking",
+        "mockito framework",
+        "mockito testing"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 283,
+      "name": "Quarkus",
+      "category": "Java",
+      "synonyms": [
+        "quarkus framework",
+        "quarkus java",
+        "quarkus native",
+        "quarkus microservices"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 284,
+      "name": "Micronaut",
+      "category": "Java",
+      "synonyms": [
+        "micronaut framework",
+        "micronaut java",
+        "micronaut microservices"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 285,
+      "name": "Apache Tomcat",
+      "category": "Java",
+      "synonyms": [
+        "tomcat server",
+        "tomcat java",
+        "tomcat web server",
+        "embedded tomcat"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 286,
+      "name": "JPA",
+      "category": "Java",
+      "synonyms": [
+        "java persistence api",
+        "jakarta persistence",
+        "entity manager",
+        "jpa entities",
+        "orm jpa"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 287,
+      "name": "Reactive Programming",
+      "category": "Software Engineering",
+      "synonyms": [
+        "rxjava",
+        "rxjs",
+        "reactor",
+        "reactive streams",
+        "observer pattern reactive",
+        "project reactor"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 288,
+      "name": "Graph Algorithms",
+      "category": "Algorithms",
+      "synonyms": [
+        "dijkstra",
+        "bfs dfs",
+        "topological sort",
+        "shortest path",
+        "graph traversal",
+        "graph theory"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 289,
+      "name": "Dynamic Programming",
+      "category": "Algorithms",
+      "synonyms": [
+        "dp",
+        "memoization dp",
+        "tabulation",
+        "optimal substructure",
+        "overlapping subproblems",
+        "dp algorithms"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 290,
+      "name": "Hash Tables",
+      "category": "Algorithms",
+      "synonyms": [
+        "hashmap",
+        "hash map",
+        "dictionary",
+        "collision resolution",
+        "hash function",
+        "hashset"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 291,
+      "name": "Tree Structures",
+      "category": "Algorithms",
+      "synonyms": [
+        "binary tree",
+        "bst",
+        "balanced tree",
+        "avl",
+        "red-black tree",
+        "segment tree",
+        "trie"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 292,
+      "name": "Recursion",
+      "category": "Algorithms",
+      "synonyms": [
+        "recursive functions",
+        "backtracking",
+        "divide and conquer",
+        "tree recursion",
+        "recursive algorithms"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 293,
+      "name": "Bit Manipulation",
+      "category": "Algorithms",
+      "synonyms": [
+        "bitwise operations",
+        "bit tricks",
+        "binary operations",
+        "xor tricks",
+        "bitmasking"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 294,
+      "name": "Greedy Algorithms",
+      "category": "Algorithms",
+      "synonyms": [
+        "greedy approach",
+        "greedy technique",
+        "interval scheduling",
+        "huffman coding",
+        "greedy method"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 295,
+      "name": "Sliding Window",
+      "category": "Algorithms",
+      "synonyms": [
+        "two pointers",
+        "sliding window technique",
+        "fast slow pointer",
+        "array tricks",
+        "window algorithm"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 296,
+      "name": "Heap",
+      "category": "Algorithms",
+      "synonyms": [
+        "min heap",
+        "max heap",
+        "priority queue heap",
+        "heapify",
+        "heap sort",
+        "priority queue"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 297,
+      "name": "Operations Research",
+      "category": "Data Science",
+      "synonyms": [
+        "linear programming",
+        "optimization algorithms",
+        "integer programming",
+        "combinatorial optimization",
+        "or tools"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 298,
+      "name": "FinTech",
+      "category": "Domain",
+      "synonyms": [
+        "financial technology",
+        "payment systems",
+        "banking software",
+        "financial services tech",
+        "neobank",
+        "fintech development"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 299,
+      "name": "HealthTech",
+      "category": "Domain",
+      "synonyms": [
+        "healthcare technology",
+        "medical records",
+        "ehr",
+        "health informatics",
+        "clinical systems",
+        "health tech"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 300,
+      "name": "EdTech",
+      "category": "Domain",
+      "synonyms": [
+        "education technology",
+        "learning management systems",
+        "lms",
+        "adaptive learning",
+        "e-learning platforms",
+        "edtech"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 301,
+      "name": "OkHttp",
+      "category": "Java",
+      "synonyms": [
+        "okhttp client",
+        "http client java",
+        "okhttp library",
+        "java http"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 302,
+      "name": "Lombok",
+      "category": "Java",
+      "synonyms": [
+        "project lombok",
+        "lombok annotations",
+        "lombok java",
+        "java lombok"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 303,
+      "name": "MapStruct",
+      "category": "Java",
+      "synonyms": [
+        "mapstruct mapper",
+        "java mapper",
+        "dto mapper",
+        "bean mapping",
+        "mapstruct mapping"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 304,
+      "name": "Flyway",
+      "category": "Java",
+      "synonyms": [
+        "flyway migration",
+        "database migration flyway",
+        "schema migration",
+        "flyway db"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 305,
+      "name": "Liquibase",
+      "category": "Java",
+      "synonyms": [
+        "liquibase migration",
+        "database changelog",
+        "liquibase db",
+        "schema versioning"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 306,
+      "name": "Circuit Breaker",
+      "category": "Architecture",
+      "synonyms": [
+        "resilience4j",
+        "hystrix",
+        "circuit breaker pattern",
+        "fault tolerance pattern",
+        "resilience pattern"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 307,
+      "name": "Rate Limiting",
+      "category": "Architecture",
+      "synonyms": [
+        "api throttling",
+        "rate limiter",
+        "request throttling",
+        "api rate limit",
+        "throttling"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 308,
+      "name": "Apache Camel",
+      "category": "Integration",
+      "synonyms": [
+        "camel integration",
+        "apache camel routes",
+        "camel enterprise integration",
+        "camel framework"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 309,
+      "name": "MuleSoft",
+      "category": "Integration",
+      "synonyms": [
+        "mulesoft integration",
+        "anypoint platform",
+        "mule esb",
+        "mulesoft api",
+        "mule integration"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 310,
+      "name": "Apache ActiveMQ",
+      "category": "Messaging",
+      "synonyms": [
+        "activemq",
+        "apache messaging",
+        "jms activemq",
+        "jms broker",
+        "activemq broker"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 311,
+      "name": "Eureka",
+      "category": "Java",
+      "synonyms": [
+        "netflix eureka",
+        "spring cloud eureka",
+        "service discovery eureka",
+        "eureka server",
+        "eureka registry"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 312,
+      "name": "Spring Cloud",
+      "category": "Java",
+      "synonyms": [
+        "spring cloud gateway",
+        "spring cloud config",
+        "spring cloud netflix",
+        "spring cloud framework"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 313,
+      "name": "Zuul",
+      "category": "Java",
+      "synonyms": [
+        "netflix zuul",
+        "zuul gateway",
+        "api gateway zuul",
+        "zuul proxy"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 314,
+      "name": "R2DBC",
+      "category": "Java",
+      "synonyms": [
+        "reactive database",
+        "r2dbc postgres",
+        "reactive jdbc",
+        "spring data r2dbc",
+        "reactive sql"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 315,
+      "name": "WebFlux",
+      "category": "Java",
+      "synonyms": [
+        "spring webflux",
+        "reactive spring",
+        "project reactor web",
+        "spring reactive web",
+        "webflux framework"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 316,
+      "name": "Ehcache",
+      "category": "Java",
+      "synonyms": [
+        "ehcache java",
+        "java cache",
+        "ehcache spring",
+        "local cache java",
+        "java caching"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 317,
+      "name": "Hazelcast",
+      "category": "Java",
+      "synonyms": [
+        "hazelcast cache",
+        "hazelcast cluster",
+        "distributed cache java",
+        "hazelcast grid"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 318,
+      "name": "Netty",
+      "category": "Java",
+      "synonyms": [
+        "netty framework",
+        "netty server",
+        "netty async",
+        "java netty",
+        "netty network"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 319,
+      "name": "OpenShift",
+      "category": "DevOps",
+      "synonyms": [
+        "red hat openshift",
+        "openshift kubernetes",
+        "ocp platform",
+        "openshift container"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 320,
+      "name": "Istio",
+      "category": "DevOps",
+      "synonyms": [
+        "service mesh istio",
+        "istio kubernetes",
+        "istio service mesh",
+        "istio proxy"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 321,
+      "name": "Consul",
+      "category": "Infrastructure",
+      "synonyms": [
+        "hashicorp consul",
+        "service discovery consul",
+        "consul mesh",
+        "consul service"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 322,
+      "name": "Vault",
+      "category": "Security",
+      "synonyms": [
+        "hashicorp vault",
+        "secrets management vault",
+        "vault secrets",
+        "vault security"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 323,
+      "name": "OPA",
+      "category": "Security",
+      "synonyms": [
+        "open policy agent",
+        "opa policy",
+        "policy as code opa",
+        "opa kubernetes"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 324,
+      "name": "Wireshark",
+      "category": "Security",
+      "synonyms": [
+        "packet analysis",
+        "wireshark network",
+        "packet capture",
+        "network analysis wireshark"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 325,
+      "name": "Metasploit",
+      "category": "Security",
+      "synonyms": [
+        "metasploit framework",
+        "exploitation framework",
+        "security testing metasploit"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 326,
+      "name": "Burp Suite",
+      "category": "Security",
+      "synonyms": [
+        "burpsuite",
+        "burp proxy",
+        "web security burp",
+        "burp scanner",
+        "web app scanner"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 327,
+      "name": "Splunk",
+      "category": "Monitoring",
+      "synonyms": [
+        "splunk logging",
+        "splunk siem",
+        "splunk enterprise",
+        "splunk queries",
+        "spl splunk"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 328,
+      "name": "New Relic",
+      "category": "Monitoring",
+      "synonyms": [
+        "newrelic monitoring",
+        "new relic apm",
+        "new relic observability",
+        "new relic platform"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 329,
+      "name": "AppDynamics",
+      "category": "Monitoring",
+      "synonyms": [
+        "appdynamics apm",
+        "cisco appdynamics",
+        "application performance appdynamics"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 330,
+      "name": "Dynatrace",
+      "category": "Monitoring",
+      "synonyms": [
+        "dynatrace monitoring",
+        "dynatrace apm",
+        "dynatrace observability",
+        "dynatrace platform"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 331,
+      "name": "Jaeger",
+      "category": "Monitoring",
+      "synonyms": [
+        "jaeger tracing",
+        "distributed tracing",
+        "opentelemetry jaeger",
+        "jaeger platform"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 332,
+      "name": "Zipkin",
+      "category": "Monitoring",
+      "synonyms": [
+        "zipkin tracing",
+        "distributed tracing zipkin",
+        "spring sleuth",
+        "zipkin platform"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 333,
+      "name": "Apache Solr",
+      "category": "Search",
+      "synonyms": [
+        "solr search",
+        "lucene solr",
+        "solr indexing",
+        "solr search engine"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 334,
+      "name": "Meilisearch",
+      "category": "Search",
+      "synonyms": [
+        "meili search",
+        "meilisearch engine",
+        "fast search meilisearch",
+        "meilisearch api"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 335,
+      "name": "Pinecone",
+      "category": "AI/ML",
+      "synonyms": [
+        "pinecone vector",
+        "pinecone db",
+        "pinecone vector database",
+        "pinecone embeddings"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 336,
+      "name": "LlamaIndex",
+      "category": "AI/ML",
+      "synonyms": [
+        "llama index",
+        "llamaindex framework",
+        "gpt index",
+        "llama index python"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 337,
+      "name": "Stable Diffusion",
+      "category": "AI/ML",
+      "synonyms": [
+        "stable diffusion model",
+        "sdxl",
+        "image generation ai",
+        "diffusion model",
+        "image ai"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 338,
+      "name": "AutoML",
+      "category": "AI/ML",
+      "synonyms": [
+        "automated machine learning",
+        "automl platform",
+        "h2o automl",
+        "google automl",
+        "auto sklearn"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 339,
+      "name": "Model Quantization",
+      "category": "AI/ML",
+      "synonyms": [
+        "model compression",
+        "quantization aware training",
+        "int8 quantization",
+        "gguf",
+        "llm quantization"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 340,
+      "name": "Federated Learning",
+      "category": "AI/ML",
+      "synonyms": [
+        "federated ml",
+        "privacy preserving ml",
+        "distributed ml training",
+        "fl federated"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 341,
+      "name": "Monte Carlo Simulation",
+      "category": "Data Science",
+      "synonyms": [
+        "monte carlo",
+        "simulation modeling",
+        "stochastic simulation",
+        "monte carlo methods"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 342,
+      "name": "Network Analysis",
+      "category": "Data Science",
+      "synonyms": [
+        "social network analysis",
+        "graph analysis",
+        "network graph",
+        "sna",
+        "network science"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 343,
+      "name": "Dask",
+      "category": "Data Science",
+      "synonyms": [
+        "dask parallel",
+        "dask dataframe",
+        "distributed dask",
+        "dask python"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 344,
+      "name": "Polars",
+      "category": "Data Science",
+      "synonyms": [
+        "polars dataframe",
+        "polars python",
+        "polars rust",
+        "fast dataframes",
+        "polars data"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 345,
+      "name": "Great Expectations",
+      "category": "Data Science",
+      "synonyms": [
+        "data quality testing",
+        "great expectations validation",
+        "data testing",
+        "data validation framework"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 346,
+      "name": "Vertex AI",
+      "category": "AI/ML",
+      "synonyms": [
+        "google vertex ai",
+        "vertex machine learning",
+        "vertex ai platform",
+        "gcp vertex"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 347,
+      "name": "SageMaker",
+      "category": "AI/ML",
+      "synonyms": [
+        "aws sagemaker",
+        "amazon sagemaker",
+        "sagemaker training",
+        "sagemaker inference"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 348,
+      "name": "Azure ML",
+      "category": "AI/ML",
+      "synonyms": [
+        "azure machine learning",
+        "azure ai",
+        "azure ml studio",
+        "azure ml platform"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 349,
+      "name": "LightGBM",
+      "category": "AI/ML",
+      "synonyms": [
+        "lightgbm model",
+        "lgbm",
+        "microsoft lightgbm",
+        "lgbm classifier"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 350,
+      "name": "CatBoost",
+      "category": "AI/ML",
+      "synonyms": [
+        "catboost model",
+        "yandex catboost",
+        "catboost classifier",
+        "catboost regressor"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 351,
+      "name": "Optuna",
+      "category": "AI/ML",
+      "synonyms": [
+        "optuna hyperparameter",
+        "hyperparameter optimization",
+        "optuna tuning",
+        "bayesian optimization optuna"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 352,
+      "name": "Weights & Biases",
+      "category": "AI/ML",
+      "synonyms": [
+        "wandb",
+        "weights biases",
+        "wandb experiment tracking",
+        "wandb ml tracking"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 353,
+      "name": "DVC",
+      "category": "AI/ML",
+      "synonyms": [
+        "data version control",
+        "dvc ml",
+        "dvc pipeline",
+        "dvc data management"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 354,
+      "name": "FastText",
+      "category": "AI/ML",
+      "synonyms": [
+        "fasttext embeddings",
+        "facebook fasttext",
+        "fasttext nlp",
+        "text classification fasttext"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 355,
+      "name": "spaCy",
+      "category": "AI/ML",
+      "synonyms": [
+        "spacy nlp",
+        "spacy python",
+        "spacy natural language",
+        "spacy ner",
+        "spacy text"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 356,
+      "name": "NLTK",
+      "category": "AI/ML",
+      "synonyms": [
+        "nltk python",
+        "natural language toolkit",
+        "nltk nlp",
+        "nltk text processing"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 357,
+      "name": "Gensim",
+      "category": "AI/ML",
+      "synonyms": [
+        "gensim word2vec",
+        "gensim topic modeling",
+        "word2vec gensim",
+        "gensim python"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 358,
+      "name": "Trax",
+      "category": "AI/ML",
+      "synonyms": [
+        "google trax",
+        "trax deep learning",
+        "trax framework"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 359,
+      "name": "JAX",
+      "category": "AI/ML",
+      "synonyms": [
+        "jax google",
+        "jax autodiff",
+        "jax numpy",
+        "jax framework",
+        "jax ml"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 360,
+      "name": "Flax",
+      "category": "AI/ML",
+      "synonyms": [
+        "flax neural",
+        "flax jax",
+        "flax framework",
+        "google flax"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 361,
+      "name": "Apache Avro",
+      "category": "Data",
+      "synonyms": [
+        "avro schema",
+        "avro serialization",
+        "kafka avro",
+        "avro format"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 362,
+      "name": "Parquet",
+      "category": "Data",
+      "synonyms": [
+        "apache parquet",
+        "parquet format",
+        "columnar parquet",
+        "parquet files",
+        "parquet storage"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 363,
+      "name": "ORC",
+      "category": "Data",
+      "synonyms": [
+        "orc format",
+        "optimized row columnar",
+        "orc hadoop",
+        "orc files"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 364,
+      "name": "Iceberg",
+      "category": "Big Data",
+      "synonyms": [
+        "apache iceberg",
+        "iceberg table",
+        "iceberg lakehouse",
+        "iceberg format"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 365,
+      "name": "Hudi",
+      "category": "Big Data",
+      "synonyms": [
+        "apache hudi",
+        "hudi table",
+        "incremental processing hudi",
+        "hudi lakehouse"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 366,
+      "name": "Trino",
+      "category": "Big Data",
+      "synonyms": [
+        "trino sql",
+        "presto trino",
+        "distributed sql trino",
+        "trino query engine"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 367,
+      "name": "Redshift",
+      "category": "Big Data",
+      "synonyms": [
+        "aws redshift",
+        "amazon redshift",
+        "redshift warehouse",
+        "redshift sql"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 368,
+      "name": "Azure Synapse",
+      "category": "Big Data",
+      "synonyms": [
+        "synapse analytics",
+        "azure synapse analytics",
+        "synapse warehouse",
+        "azure data warehouse"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 369,
+      "name": "Informatica",
+      "category": "Big Data",
+      "synonyms": [
+        "informatica etl",
+        "informatica powercenter",
+        "informatica data integration",
+        "informatica cloud"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 370,
+      "name": "Talend",
+      "category": "Big Data",
+      "synonyms": [
+        "talend etl",
+        "talend data integration",
+        "talend open studio",
+        "talend cloud"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 371,
+      "name": "Stitch",
+      "category": "Big Data",
+      "synonyms": [
+        "stitch data",
+        "stitch etl",
+        "stitch integration",
+        "stitch pipeline"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 372,
+      "name": "Fivetran",
+      "category": "Big Data",
+      "synonyms": [
+        "fivetran etl",
+        "fivetran connector",
+        "fivetran pipeline",
+        "fivetran data"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 373,
+      "name": "Matillion",
+      "category": "Big Data",
+      "synonyms": [
+        "matillion etl",
+        "matillion data",
+        "matillion cloud",
+        "matillion transformation"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 374,
+      "name": "QlikView",
+      "category": "BI Tools",
+      "synonyms": [
+        "qlik view",
+        "qlik sense",
+        "qlikview bi",
+        "qlik analytics"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 375,
+      "name": "MicroStrategy",
+      "category": "BI Tools",
+      "synonyms": [
+        "microstrategy bi",
+        "microstrategy analytics",
+        "microstrategy platform"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 376,
+      "name": "SAP BusinessObjects",
+      "category": "BI Tools",
+      "synonyms": [
+        "businessobjects",
+        "sap bo",
+        "crystal reports",
+        "bobj",
+        "sap bi"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 377,
+      "name": "Sisense",
+      "category": "BI Tools",
+      "synonyms": [
+        "sisense analytics",
+        "sisense bi",
+        "sisense dashboards"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 378,
+      "name": "Domo",
+      "category": "BI Tools",
+      "synonyms": [
+        "domo analytics",
+        "domo bi",
+        "domo dashboards",
+        "domo cloud"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 379,
+      "name": "Metabase",
+      "category": "BI Tools",
+      "synonyms": [
+        "metabase analytics",
+        "metabase bi",
+        "metabase open source",
+        "metabase dashboards"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 380,
+      "name": "Superset",
+      "category": "BI Tools",
+      "synonyms": [
+        "apache superset",
+        "superset analytics",
+        "superset dashboards",
+        "airbnb superset"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 381,
+      "name": "Axure",
+      "category": "Design",
+      "synonyms": [
+        "axure rp",
+        "axure prototyping",
+        "axure wireframe",
+        "axure ux"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 382,
+      "name": "Sketch",
+      "category": "Design",
+      "synonyms": [
+        "sketch app",
+        "sketch design",
+        "sketch ui",
+        "sketch mac"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 383,
+      "name": "InVision",
+      "category": "Design",
+      "synonyms": [
+        "invision app",
+        "invision design",
+        "invision prototyping"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 384,
+      "name": "Zeplin",
+      "category": "Design",
+      "synonyms": [
+        "zeplin design",
+        "zeplin handoff",
+        "zeplin developer",
+        "design zeplin"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 385,
+      "name": "Adobe XD",
+      "category": "Design",
+      "synonyms": [
+        "xd design",
+        "adobe experience design",
+        "adobe xd prototype"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 386,
+      "name": "Lottie",
+      "category": "Design",
+      "synonyms": [
+        "lottie animation",
+        "airbnb lottie",
+        "lottie files",
+        "json animation lottie"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 387,
+      "name": "Rive",
+      "category": "Design",
+      "synonyms": [
+        "rive animation",
+        "rive app",
+        "interactive animation rive",
+        "rive design"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 388,
+      "name": "Webflow",
+      "category": "Design",
+      "synonyms": [
+        "webflow design",
+        "webflow cms",
+        "webflow no-code",
+        "webflow web"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 389,
+      "name": "Framer",
+      "category": "Design",
+      "synonyms": [
+        "framer motion",
+        "framer design",
+        "framer prototype",
+        "framer web"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 390,
+      "name": "Unreal Engine",
+      "category": "Game Development",
+      "synonyms": [
+        "ue4",
+        "ue5",
+        "unreal engine 5",
+        "epic games engine",
+        "unreal development"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 391,
+      "name": "Godot",
+      "category": "Game Development",
+      "synonyms": [
+        "godot engine",
+        "godot game",
+        "godot development",
+        "gdscript",
+        "godot 4"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 392,
+      "name": "Cocos2d",
+      "category": "Game Development",
+      "synonyms": [
+        "cocos2d-x",
+        "cocos creator",
+        "cocos2d game",
+        "cocos game engine"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 393,
+      "name": "OpenGL",
+      "category": "Graphics",
+      "synonyms": [
+        "opengl programming",
+        "opengl graphics",
+        "opengl shaders",
+        "opengl rendering",
+        "opengl api"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 394,
+      "name": "Vulkan",
+      "category": "Graphics",
+      "synonyms": [
+        "vulkan api",
+        "vulkan graphics",
+        "vulkan rendering",
+        "vulkan gpu"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 395,
+      "name": "Metal",
+      "category": "Graphics",
+      "synonyms": [
+        "apple metal",
+        "metal framework",
+        "ios graphics metal",
+        "metal shaders"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 396,
+      "name": "WebGL",
+      "category": "Graphics",
+      "synonyms": [
+        "webgl graphics",
+        "webgl shaders",
+        "3d webgl",
+        "web graphics webgl"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 397,
+      "name": "VHDL",
+      "category": "Hardware",
+      "synonyms": [
+        "vhdl hardware",
+        "vhdl design",
+        "fpga vhdl",
+        "digital design vhdl"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 398,
+      "name": "Verilog",
+      "category": "Hardware",
+      "synonyms": [
+        "verilog hdl",
+        "verilog design",
+        "fpga verilog",
+        "hardware verilog"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 399,
+      "name": "FPGA",
+      "category": "Hardware",
+      "synonyms": [
+        "fpga development",
+        "fpga design",
+        "xilinx fpga",
+        "intel fpga",
+        "field programmable"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 400,
+      "name": "ROS",
+      "category": "Robotics",
+      "synonyms": [
+        "robot operating system",
+        "ros2",
+        "ros framework",
+        "ros middleware",
+        "robotic ros"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 401,
+      "name": "MoveIt",
+      "category": "Robotics",
+      "synonyms": [
+        "moveit ros",
+        "motion planning ros",
+        "moveit framework",
+        "robotic arm planning"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 402,
+      "name": "Gazebo",
+      "category": "Robotics",
+      "synonyms": [
+        "gazebo simulator",
+        "gazebo ros",
+        "robot simulator",
+        "gazebo simulation"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 403,
+      "name": "PLC Programming",
+      "category": "Industrial",
+      "synonyms": [
+        "plc ladder logic",
+        "siemens plc",
+        "allen bradley",
+        "programmable logic controller",
+        "plc scada"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 404,
+      "name": "SCADA",
+      "category": "Industrial",
+      "synonyms": [
+        "scada system",
+        "supervisory control",
+        "industrial scada",
+        "scada automation"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 405,
+      "name": "HL7",
+      "category": "Healthcare",
+      "synonyms": [
+        "hl7 standard",
+        "fhir hl7",
+        "health level 7",
+        "hl7 messaging"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 406,
+      "name": "FHIR",
+      "category": "Healthcare",
+      "synonyms": [
+        "fhir standard",
+        "fast healthcare interoperability",
+        "fhir api",
+        "hl7 fhir"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 407,
+      "name": "Epic Systems",
+      "category": "Healthcare",
+      "synonyms": [
+        "epic ehr",
+        "epic emr",
+        "epic health",
+        "epiccare"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 408,
+      "name": "cerner",
+      "category": "Healthcare",
+      "synonyms": [
+        "cerner ehr",
+        "oracle cerner",
+        "cerner health",
+        "cerner millennium"
+      ],
+      "weight": 4
+    },
+    {
+      "id": 409,
+      "name": "Hyperledger",
+      "category": "Web3",
+      "synonyms": [
+        "hyperledger fabric",
+        "hyperledger besu",
+        "enterprise blockchain",
+        "hyperledger sawtooth"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 410,
+      "name": "Web3.js",
+      "category": "Web3",
+      "synonyms": [
+        "ethers.js",
+        "web3 javascript",
+        "blockchain js",
+        "dapp development",
+        "ethers library"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 411,
+      "name": "Hardhat",
+      "category": "Web3",
+      "synonyms": [
+        "hardhat ethereum",
+        "hardhat testing",
+        "ethereum development hardhat",
+        "solidity testing"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 412,
+      "name": "IPFS",
+      "category": "Web3",
+      "synonyms": [
+        "ipfs storage",
+        "interplanetary file system",
+        "ipfs network",
+        "decentralized storage"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 413,
+      "name": "Supabase",
+      "category": "Database",
+      "synonyms": [
+        "supabase db",
+        "supabase postgres",
+        "supabase realtime",
+        "supabase backend"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 414,
+      "name": "PlanetScale",
+      "category": "Database",
+      "synonyms": [
+        "planetscale mysql",
+        "planetscale db",
+        "planetscale branching",
+        "planetscale database"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 415,
+      "name": "CockroachDB",
+      "category": "Database",
+      "synonyms": [
+        "cockroachdb",
+        "cockroach database",
+        "distributed sql cockroach",
+        "cockroach sql"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 416,
+      "name": "TimescaleDB",
+      "category": "Database",
+      "synonyms": [
+        "timescale database",
+        "timescaledb postgres",
+        "time series timescale",
+        "timescaledb"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 417,
+      "name": "ClickHouse",
+      "category": "Database",
+      "synonyms": [
+        "clickhouse olap",
+        "clickhouse database",
+        "clickhouse analytics",
+        "clickhouse sql"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 418,
+      "name": "MinIO",
+      "category": "Infrastructure",
+      "synonyms": [
+        "minio object storage",
+        "minio s3",
+        "minio storage",
+        "minio server"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 419,
+      "name": "Kafka Connect",
+      "category": "Big Data",
+      "synonyms": [
+        "kafka connector",
+        "kafka integration",
+        "kafka source sink",
+        "kafka connect framework"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 420,
+      "name": "Schema Registry",
+      "category": "Big Data",
+      "synonyms": [
+        "confluent schema registry",
+        "avro schema registry",
+        "kafka schema",
+        "schema management"
+      ],
+      "weight": 5
+    }
+  ]
+}

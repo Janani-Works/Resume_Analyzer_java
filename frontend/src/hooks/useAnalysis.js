@@ -1,0 +1,42 @@
+import { useState, useCallback } from 'react'
+import axios from 'axios'
+
+const API = '/api'
+
+export function useAnalysis() {
+  const [result, setResult] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
+
+  const analyze = useCallback(async ({ resumeFile, resumeText, jdText, jdUrl }) => {
+    setLoading(true)
+    setError(null)
+    try {
+      const form = new FormData()
+      if (resumeFile) form.append('resumeFile', resumeFile)
+      if (resumeText) form.append('resumeText', resumeText)
+      if (jdText) form.append('jdText', jdText)
+      if (jdUrl) form.append('jdUrl', jdUrl)
+
+      const { data } = await axios.post(`${API}/analyze`, form, {
+        headers: { 'Content-Type': 'multipart/form-data' },
+        timeout: 30000,
+      })
+      setResult(data)
+      return data
+    } catch (err) {
+      const msg = err.response?.data?.error || err.message || 'Analysis failed'
+      setError(msg)
+      throw new Error(msg)
+    } finally {
+      setLoading(false)
+    }
+  }, [])
+
+  const reset = useCallback(() => {
+    setResult(null)
+    setError(null)
+  }, [])
+
+  return { result, loading, error, analyze, reset }
+}

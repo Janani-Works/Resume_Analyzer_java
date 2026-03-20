@@ -1,0 +1,2947 @@
+{
+  "version": "1.0",
+  "total": 210,
+  "job_fields": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "domain": "Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "algorithms",
+        "data structures",
+        "oop",
+        "system design",
+        "git"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 2,
+      "title": "Senior Software Engineer",
+      "domain": "Engineering",
+      "level": "Senior",
+      "key_skills": [
+        "system design",
+        "distributed systems",
+        "mentoring",
+        "code review",
+        "architecture"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 3,
+      "title": "Staff Software Engineer",
+      "domain": "Engineering",
+      "level": "Staff",
+      "key_skills": [
+        "technical leadership",
+        "architecture",
+        "cross-team collaboration",
+        "system design",
+        "strategy"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 4,
+      "title": "Principal Engineer",
+      "domain": "Engineering",
+      "level": "Principal",
+      "key_skills": [
+        "technical vision",
+        "architecture",
+        "org-wide impact",
+        "senior leadership",
+        "technical strategy"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 5,
+      "title": "Frontend Developer",
+      "domain": "Frontend",
+      "level": "Mid",
+      "key_skills": [
+        "react",
+        "javascript",
+        "html",
+        "css",
+        "responsive design"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 6,
+      "title": "Senior Frontend Developer",
+      "domain": "Frontend",
+      "level": "Senior",
+      "key_skills": [
+        "react",
+        "typescript",
+        "performance optimization",
+        "design systems",
+        "web accessibility"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 7,
+      "title": "Frontend Architect",
+      "domain": "Frontend",
+      "level": "Architect",
+      "key_skills": [
+        "micro frontends",
+        "architecture",
+        "design systems",
+        "performance",
+        "web standards"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 8,
+      "title": "React Developer",
+      "domain": "Frontend",
+      "level": "Mid",
+      "key_skills": [
+        "react",
+        "redux",
+        "hooks",
+        "typescript",
+        "next.js"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 9,
+      "title": "Vue.js Developer",
+      "domain": "Frontend",
+      "level": "Mid",
+      "key_skills": [
+        "vue.js",
+        "vuex",
+        "nuxt.js",
+        "typescript",
+        "html css"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 10,
+      "title": "Angular Developer",
+      "domain": "Frontend",
+      "level": "Mid",
+      "key_skills": [
+        "angular",
+        "typescript",
+        "rxjs",
+        "ngrx",
+        "testing"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 11,
+      "title": "Backend Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "rest api",
+        "sql",
+        "system design",
+        "docker",
+        "testing"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 12,
+      "title": "Senior Backend Developer",
+      "domain": "Backend",
+      "level": "Senior",
+      "key_skills": [
+        "microservices",
+        "distributed systems",
+        "performance",
+        "database optimization",
+        "api design"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 13,
+      "title": "Java Backend Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "java",
+        "spring boot",
+        "microservices",
+        "sql",
+        "docker"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 14,
+      "title": "Python Backend Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "python",
+        "fastapi",
+        "django",
+        "postgresql",
+        "docker"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 15,
+      "title": "Node.js Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "node.js",
+        "express",
+        "javascript",
+        "mongodb",
+        "rest api"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 16,
+      "title": "Go Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "go",
+        "concurrency",
+        "grpc",
+        "kubernetes",
+        "microservices"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 17,
+      "title": "Full Stack Developer",
+      "domain": "Full Stack",
+      "level": "Mid",
+      "key_skills": [
+        "react",
+        "node.js",
+        "sql",
+        "docker",
+        "rest api"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 18,
+      "title": "Senior Full Stack Developer",
+      "domain": "Full Stack",
+      "level": "Senior",
+      "key_skills": [
+        "react",
+        "node.js",
+        "system design",
+        "cloud",
+        "devops"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 19,
+      "title": "MERN Stack Developer",
+      "domain": "Full Stack",
+      "level": "Mid",
+      "key_skills": [
+        "mongodb",
+        "express",
+        "react",
+        "node.js",
+        "javascript"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 20,
+      "title": "MEAN Stack Developer",
+      "domain": "Full Stack",
+      "level": "Mid",
+      "key_skills": [
+        "mongodb",
+        "express",
+        "angular",
+        "node.js",
+        "typescript"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 21,
+      "title": "Data Scientist",
+      "domain": "Data Science",
+      "level": "Mid",
+      "key_skills": [
+        "python",
+        "machine learning",
+        "pandas",
+        "statistics",
+        "data visualization"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 22,
+      "title": "Senior Data Scientist",
+      "domain": "Data Science",
+      "level": "Senior",
+      "key_skills": [
+        "deep learning",
+        "experimentation",
+        "mlops",
+        "statistical modeling",
+        "business impact"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 23,
+      "title": "Lead Data Scientist",
+      "domain": "Data Science",
+      "level": "Lead",
+      "key_skills": [
+        "ml strategy",
+        "team leadership",
+        "research direction",
+        "stakeholder management",
+        "model deployment"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 24,
+      "title": "Data Analyst",
+      "domain": "Data",
+      "level": "Mid",
+      "key_skills": [
+        "sql",
+        "python",
+        "data visualization",
+        "excel",
+        "statistics"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 25,
+      "title": "Senior Data Analyst",
+      "domain": "Data",
+      "level": "Senior",
+      "key_skills": [
+        "advanced sql",
+        "python",
+        "power bi",
+        "stakeholder management",
+        "insights"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 26,
+      "title": "Business Intelligence Analyst",
+      "domain": "Data",
+      "level": "Mid",
+      "key_skills": [
+        "sql",
+        "power bi",
+        "tableau",
+        "data modeling",
+        "reporting"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 27,
+      "title": "BI Developer",
+      "domain": "Data",
+      "level": "Mid",
+      "key_skills": [
+        "power bi",
+        "tableau",
+        "sql",
+        "etl",
+        "data warehouse"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 28,
+      "title": "Data Engineer",
+      "domain": "Data Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "python",
+        "apache spark",
+        "sql",
+        "kafka",
+        "airflow"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 29,
+      "title": "Senior Data Engineer",
+      "domain": "Data Engineering",
+      "level": "Senior",
+      "key_skills": [
+        "spark",
+        "kafka",
+        "data architecture",
+        "cloud",
+        "distributed systems"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 30,
+      "title": "Data Architect",
+      "domain": "Data Engineering",
+      "level": "Architect",
+      "key_skills": [
+        "data modeling",
+        "data warehouse",
+        "cloud architecture",
+        "governance",
+        "strategy"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 31,
+      "title": "ML Engineer",
+      "domain": "AI/ML",
+      "level": "Mid",
+      "key_skills": [
+        "python",
+        "tensorflow",
+        "mlops",
+        "docker",
+        "kubernetes"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 32,
+      "title": "Senior ML Engineer",
+      "domain": "AI/ML",
+      "level": "Senior",
+      "key_skills": [
+        "mlops",
+        "distributed training",
+        "model optimization",
+        "system design",
+        "ml infrastructure"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 33,
+      "title": "AI Engineer",
+      "domain": "AI/ML",
+      "level": "Mid",
+      "key_skills": [
+        "llm",
+        "langchain",
+        "python",
+        "vector databases",
+        "ai apis"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 34,
+      "title": "NLP Engineer",
+      "domain": "AI/ML",
+      "level": "Mid",
+      "key_skills": [
+        "nlp",
+        "transformers",
+        "hugging face",
+        "python",
+        "bert"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 35,
+      "title": "Computer Vision Engineer",
+      "domain": "AI/ML",
+      "level": "Mid",
+      "key_skills": [
+        "computer vision",
+        "opencv",
+        "pytorch",
+        "deep learning",
+        "image processing"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 36,
+      "title": "MLOps Engineer",
+      "domain": "AI/ML",
+      "level": "Mid",
+      "key_skills": [
+        "mlflow",
+        "kubernetes",
+        "ci/cd",
+        "docker",
+        "model monitoring"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 37,
+      "title": "AI Research Scientist",
+      "domain": "AI/ML",
+      "level": "Senior",
+      "key_skills": [
+        "research",
+        "publications",
+        "pytorch",
+        "deep learning",
+        "mathematical modeling"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 38,
+      "title": "Generative AI Engineer",
+      "domain": "AI/ML",
+      "level": "Mid",
+      "key_skills": [
+        "llm",
+        "langchain",
+        "rag",
+        "prompt engineering",
+        "python"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 39,
+      "title": "DevOps Engineer",
+      "domain": "DevOps",
+      "level": "Mid",
+      "key_skills": [
+        "docker",
+        "kubernetes",
+        "terraform",
+        "ci/cd",
+        "linux"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 40,
+      "title": "Senior DevOps Engineer",
+      "domain": "DevOps",
+      "level": "Senior",
+      "key_skills": [
+        "kubernetes",
+        "terraform",
+        "platform engineering",
+        "sre",
+        "cloud architecture"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 41,
+      "title": "Site Reliability Engineer",
+      "domain": "DevOps",
+      "level": "Mid",
+      "key_skills": [
+        "sre",
+        "kubernetes",
+        "monitoring",
+        "incident management",
+        "performance"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 42,
+      "title": "Platform Engineer",
+      "domain": "DevOps",
+      "level": "Mid",
+      "key_skills": [
+        "kubernetes",
+        "terraform",
+        "internal tools",
+        "developer experience",
+        "platform"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 43,
+      "title": "Cloud Engineer",
+      "domain": "Cloud",
+      "level": "Mid",
+      "key_skills": [
+        "aws",
+        "azure",
+        "gcp",
+        "terraform",
+        "kubernetes"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 44,
+      "title": "Senior Cloud Engineer",
+      "domain": "Cloud",
+      "level": "Senior",
+      "key_skills": [
+        "cloud architecture",
+        "multi-cloud",
+        "finops",
+        "security",
+        "distributed systems"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 45,
+      "title": "AWS Solutions Architect",
+      "domain": "Cloud",
+      "level": "Senior",
+      "key_skills": [
+        "aws",
+        "cloud architecture",
+        "well-architected",
+        "terraform",
+        "serverless"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 46,
+      "title": "Azure Solutions Architect",
+      "domain": "Cloud",
+      "level": "Senior",
+      "key_skills": [
+        "azure",
+        "azure devops",
+        "cloud architecture",
+        "terraform",
+        "microsoft stack"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 47,
+      "title": "GCP Solutions Architect",
+      "domain": "Cloud",
+      "level": "Senior",
+      "key_skills": [
+        "gcp",
+        "google cloud",
+        "bigquery",
+        "kubernetes",
+        "data engineering"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 48,
+      "title": "Security Engineer",
+      "domain": "Security",
+      "level": "Mid",
+      "key_skills": [
+        "cybersecurity",
+        "vulnerability assessment",
+        "sast",
+        "devsecops",
+        "penetration testing"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 49,
+      "title": "Senior Security Engineer",
+      "domain": "Security",
+      "level": "Senior",
+      "key_skills": [
+        "security architecture",
+        "threat modeling",
+        "zero trust",
+        "compliance",
+        "incident response"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 50,
+      "title": "Penetration Tester",
+      "domain": "Security",
+      "level": "Mid",
+      "key_skills": [
+        "penetration testing",
+        "ethical hacking",
+        "owasp",
+        "tools",
+        "vulnerability assessment"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 51,
+      "title": "Security Analyst",
+      "domain": "Security",
+      "level": "Mid",
+      "key_skills": [
+        "siem",
+        "incident response",
+        "threat analysis",
+        "soc",
+        "security monitoring"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 52,
+      "title": "iOS Developer",
+      "domain": "Mobile",
+      "level": "Mid",
+      "key_skills": [
+        "swift",
+        "ios",
+        "xcode",
+        "swiftui",
+        "apple"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 53,
+      "title": "Android Developer",
+      "domain": "Mobile",
+      "level": "Mid",
+      "key_skills": [
+        "kotlin",
+        "android",
+        "jetpack compose",
+        "android studio",
+        "java"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 54,
+      "title": "React Native Developer",
+      "domain": "Mobile",
+      "level": "Mid",
+      "key_skills": [
+        "react native",
+        "javascript",
+        "mobile",
+        "expo",
+        "redux"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 55,
+      "title": "Flutter Developer",
+      "domain": "Mobile",
+      "level": "Mid",
+      "key_skills": [
+        "flutter",
+        "dart",
+        "mobile",
+        "state management",
+        "firebase"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 56,
+      "title": "Mobile Architect",
+      "domain": "Mobile",
+      "level": "Architect",
+      "key_skills": [
+        "mobile architecture",
+        "cross platform",
+        "performance",
+        "design patterns",
+        "leadership"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 57,
+      "title": "Embedded Systems Engineer",
+      "domain": "Embedded",
+      "level": "Mid",
+      "key_skills": [
+        "c",
+        "c++",
+        "rtos",
+        "microcontrollers",
+        "embedded linux"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 58,
+      "title": "IoT Engineer",
+      "domain": "Embedded",
+      "level": "Mid",
+      "key_skills": [
+        "iot",
+        "mqtt",
+        "embedded",
+        "cloud iot",
+        "sensors"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 59,
+      "title": "Firmware Engineer",
+      "domain": "Embedded",
+      "level": "Mid",
+      "key_skills": [
+        "c",
+        "firmware",
+        "rtos",
+        "hardware interfaces",
+        "debugging"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 60,
+      "title": "QA Engineer",
+      "domain": "Testing",
+      "level": "Mid",
+      "key_skills": [
+        "testing",
+        "selenium",
+        "automation",
+        "test planning",
+        "agile"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 61,
+      "title": "Senior QA Engineer",
+      "domain": "Testing",
+      "level": "Senior",
+      "key_skills": [
+        "test automation",
+        "ci/cd",
+        "performance testing",
+        "leadership",
+        "frameworks"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 62,
+      "title": "SDET",
+      "domain": "Testing",
+      "level": "Mid",
+      "key_skills": [
+        "programming",
+        "test automation",
+        "ci/cd",
+        "api testing",
+        "frameworks"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 63,
+      "title": "QA Automation Engineer",
+      "domain": "Testing",
+      "level": "Mid",
+      "key_skills": [
+        "selenium",
+        "cypress",
+        "playwright",
+        "python/java",
+        "api testing"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 64,
+      "title": "Performance Engineer",
+      "domain": "Testing",
+      "level": "Mid",
+      "key_skills": [
+        "jmeter",
+        "load testing",
+        "k6",
+        "performance analysis",
+        "bottleneck identification"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 65,
+      "title": "Engineering Manager",
+      "domain": "Management",
+      "level": "Manager",
+      "key_skills": [
+        "team management",
+        "technical leadership",
+        "agile",
+        "hiring",
+        "stakeholder management"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 66,
+      "title": "Director of Engineering",
+      "domain": "Management",
+      "level": "Director",
+      "key_skills": [
+        "org design",
+        "strategy",
+        "executive communication",
+        "multiple teams",
+        "engineering culture"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 67,
+      "title": "VP of Engineering",
+      "domain": "Management",
+      "level": "VP",
+      "key_skills": [
+        "engineering strategy",
+        "executive leadership",
+        "org scaling",
+        "budgeting",
+        "board communication"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 68,
+      "title": "CTO",
+      "domain": "C-Suite",
+      "level": "Executive",
+      "key_skills": [
+        "technology strategy",
+        "executive leadership",
+        "business alignment",
+        "team building",
+        "innovation"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 69,
+      "title": "Product Manager",
+      "domain": "Product",
+      "level": "Mid",
+      "key_skills": [
+        "product strategy",
+        "roadmap",
+        "user research",
+        "data analysis",
+        "stakeholder management"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 70,
+      "title": "Senior Product Manager",
+      "domain": "Product",
+      "level": "Senior",
+      "key_skills": [
+        "product vision",
+        "go-to-market",
+        "metrics",
+        "technical depth",
+        "leadership"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 71,
+      "title": "Technical Product Manager",
+      "domain": "Product",
+      "level": "Mid",
+      "key_skills": [
+        "technical background",
+        "api design",
+        "engineering collaboration",
+        "product strategy",
+        "data"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 72,
+      "title": "Product Owner",
+      "domain": "Product",
+      "level": "Mid",
+      "key_skills": [
+        "backlog management",
+        "scrum",
+        "user stories",
+        "stakeholders",
+        "acceptance criteria"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 73,
+      "title": "UX Designer",
+      "domain": "Design",
+      "level": "Mid",
+      "key_skills": [
+        "figma",
+        "user research",
+        "wireframing",
+        "prototyping",
+        "usability testing"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 74,
+      "title": "Senior UX Designer",
+      "domain": "Design",
+      "level": "Senior",
+      "key_skills": [
+        "ux strategy",
+        "design systems",
+        "research",
+        "leadership",
+        "cross-functional"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 75,
+      "title": "UI Designer",
+      "domain": "Design",
+      "level": "Mid",
+      "key_skills": [
+        "figma",
+        "visual design",
+        "component design",
+        "design tokens",
+        "responsive design"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 76,
+      "title": "Product Designer",
+      "domain": "Design",
+      "level": "Mid",
+      "key_skills": [
+        "figma",
+        "ux",
+        "ui",
+        "prototyping",
+        "design thinking"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 77,
+      "title": "Design Systems Engineer",
+      "domain": "Design",
+      "level": "Mid",
+      "key_skills": [
+        "react",
+        "design tokens",
+        "storybook",
+        "figma",
+        "component library"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 78,
+      "title": "Blockchain Developer",
+      "domain": "Web3",
+      "level": "Mid",
+      "key_skills": [
+        "solidity",
+        "ethereum",
+        "smart contracts",
+        "web3.js",
+        "defi"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 79,
+      "title": "Smart Contract Developer",
+      "domain": "Web3",
+      "level": "Mid",
+      "key_skills": [
+        "solidity",
+        "hardhat",
+        "testing",
+        "security",
+        "defi protocols"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 80,
+      "title": "Web3 Engineer",
+      "domain": "Web3",
+      "level": "Mid",
+      "key_skills": [
+        "blockchain",
+        "solidity",
+        "web3.js",
+        "nft",
+        "defi"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 81,
+      "title": "Database Administrator",
+      "domain": "Database",
+      "level": "Mid",
+      "key_skills": [
+        "sql",
+        "database administration",
+        "postgresql",
+        "performance tuning",
+        "backup recovery"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 82,
+      "title": "Database Architect",
+      "domain": "Database",
+      "level": "Senior",
+      "key_skills": [
+        "data modeling",
+        "database design",
+        "distributed databases",
+        "cloud databases",
+        "performance"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 83,
+      "title": "NoSQL Engineer",
+      "domain": "Database",
+      "level": "Mid",
+      "key_skills": [
+        "mongodb",
+        "cassandra",
+        "redis",
+        "dynamodb",
+        "schema design"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 84,
+      "title": "Search Engineer",
+      "domain": "Search",
+      "level": "Mid",
+      "key_skills": [
+        "elasticsearch",
+        "search algorithms",
+        "relevance tuning",
+        "data ingestion",
+        "performance"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 85,
+      "title": "Network Engineer",
+      "domain": "Networking",
+      "level": "Mid",
+      "key_skills": [
+        "networking",
+        "tcp/ip",
+        "routing",
+        "firewalls",
+        "cisco"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 86,
+      "title": "Systems Administrator",
+      "domain": "Systems",
+      "level": "Mid",
+      "key_skills": [
+        "linux",
+        "windows server",
+        "networking",
+        "automation",
+        "monitoring"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 87,
+      "title": "Solutions Architect",
+      "domain": "Architecture",
+      "level": "Senior",
+      "key_skills": [
+        "system design",
+        "cloud",
+        "architecture patterns",
+        "client communication",
+        "technical strategy"
+      ],
+      "weight": 10
+    },
+    {
+      "id": 88,
+      "title": "Enterprise Architect",
+      "domain": "Architecture",
+      "level": "Senior",
+      "key_skills": [
+        "enterprise architecture",
+        "togaf",
+        "roadmap",
+        "governance",
+        "multi-year planning"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 89,
+      "title": "Scrum Master",
+      "domain": "Agile",
+      "level": "Mid",
+      "key_skills": [
+        "scrum",
+        "agile",
+        "facilitation",
+        "impediment removal",
+        "team coaching"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 90,
+      "title": "Agile Coach",
+      "domain": "Agile",
+      "level": "Senior",
+      "key_skills": [
+        "agile transformation",
+        "coaching",
+        "lean",
+        "multiple teams",
+        "organizational change"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 91,
+      "title": "Technical Writer",
+      "domain": "Documentation",
+      "level": "Mid",
+      "key_skills": [
+        "technical writing",
+        "api documentation",
+        "markdown",
+        "documentation tools",
+        "developer experience"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 92,
+      "title": "Developer Advocate",
+      "domain": "DevRel",
+      "level": "Mid",
+      "key_skills": [
+        "technical communication",
+        "community building",
+        "content creation",
+        "api experience",
+        "public speaking"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 93,
+      "title": "Salesforce Developer",
+      "domain": "CRM",
+      "level": "Mid",
+      "key_skills": [
+        "salesforce",
+        "apex",
+        "visualforce",
+        "salesforce apis",
+        "crm"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 94,
+      "title": "SAP Developer",
+      "domain": "ERP",
+      "level": "Mid",
+      "key_skills": [
+        "sap",
+        "abap",
+        "sap modules",
+        "integration",
+        "erp"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 95,
+      "title": "RPA Developer",
+      "domain": "Automation",
+      "level": "Mid",
+      "key_skills": [
+        "uipath",
+        "automation anywhere",
+        "rpa",
+        "process automation",
+        "bot development"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 96,
+      "title": "Quantitative Analyst",
+      "domain": "Finance",
+      "level": "Senior",
+      "key_skills": [
+        "python",
+        "statistics",
+        "r",
+        "financial modeling",
+        "risk"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 97,
+      "title": "Algorithmic Trader",
+      "domain": "Finance",
+      "level": "Senior",
+      "key_skills": [
+        "c++",
+        "python",
+        "algorithms",
+        "low latency",
+        "financial markets"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 98,
+      "title": "FinTech Engineer",
+      "domain": "Finance",
+      "level": "Mid",
+      "key_skills": [
+        "payment systems",
+        "api integration",
+        "security",
+        "compliance",
+        "financial tech"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 99,
+      "title": "Bioinformatics Engineer",
+      "domain": "Biology",
+      "level": "Mid",
+      "key_skills": [
+        "python",
+        "bioinformatics",
+        "genomics",
+        "r",
+        "data analysis"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 100,
+      "title": "HealthTech Engineer",
+      "domain": "Healthcare",
+      "level": "Mid",
+      "key_skills": [
+        "healthcare apis",
+        "hl7",
+        "fhir",
+        "hipaa",
+        "ehr integration"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 101,
+      "title": "Game Developer",
+      "domain": "Gaming",
+      "level": "Mid",
+      "key_skills": [
+        "unity",
+        "c#",
+        "game design",
+        "graphics",
+        "performance"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 102,
+      "title": "Game Engine Engineer",
+      "domain": "Gaming",
+      "level": "Senior",
+      "key_skills": [
+        "unreal engine",
+        "c++",
+        "rendering",
+        "performance",
+        "tools"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 103,
+      "title": "Graphics Engineer",
+      "domain": "Gaming",
+      "level": "Senior",
+      "key_skills": [
+        "opengl",
+        "vulkan",
+        "shader programming",
+        "rendering",
+        "c++"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 104,
+      "title": "AR/VR Developer",
+      "domain": "XR",
+      "level": "Mid",
+      "key_skills": [
+        "unity",
+        "ar/vr",
+        "xr",
+        "3d",
+        "spatial computing"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 105,
+      "title": "Robotics Engineer",
+      "domain": "Robotics",
+      "level": "Mid",
+      "key_skills": [
+        "ros",
+        "c++",
+        "python",
+        "sensors",
+        "control systems"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 106,
+      "title": "Prompt Engineer",
+      "domain": "AI/ML",
+      "level": "Mid",
+      "key_skills": [
+        "prompt engineering",
+        "llm",
+        "evaluation",
+        "python",
+        "nlp"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 107,
+      "title": "AI Product Manager",
+      "domain": "Product",
+      "level": "Senior",
+      "key_skills": [
+        "ai products",
+        "ml understanding",
+        "roadmap",
+        "ethics",
+        "data"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 108,
+      "title": "ML Platform Engineer",
+      "domain": "AI/ML",
+      "level": "Senior",
+      "key_skills": [
+        "ml infrastructure",
+        "kubernetes",
+        "distributed training",
+        "mlops",
+        "platform"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 109,
+      "title": "Data Platform Engineer",
+      "domain": "Data Engineering",
+      "level": "Senior",
+      "key_skills": [
+        "data platform",
+        "dbt",
+        "airflow",
+        "data mesh",
+        "governance"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 110,
+      "title": "Streaming Engineer",
+      "domain": "Data Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "kafka",
+        "flink",
+        "spark streaming",
+        "real-time",
+        "event streaming"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 111,
+      "title": "Analytics Engineer",
+      "domain": "Data",
+      "level": "Mid",
+      "key_skills": [
+        "dbt",
+        "sql",
+        "data modeling",
+        "analytics",
+        "snowflake"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 112,
+      "title": "Growth Engineer",
+      "domain": "Product",
+      "level": "Mid",
+      "key_skills": [
+        "a/b testing",
+        "analytics",
+        "python",
+        "product development",
+        "experimentation"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 113,
+      "title": "Platform Developer",
+      "domain": "Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "platform apis",
+        "developer experience",
+        "sdks",
+        "documentation",
+        "tooling"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 114,
+      "title": "Integration Engineer",
+      "domain": "Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "api integration",
+        "etl",
+        "middleware",
+        "data transformation",
+        "connectors"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 115,
+      "title": "API Architect",
+      "domain": "Architecture",
+      "level": "Senior",
+      "key_skills": [
+        "api design",
+        "rest",
+        "graphql",
+        "openapi",
+        "api governance"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 116,
+      "title": "Event-Driven Architect",
+      "domain": "Architecture",
+      "level": "Senior",
+      "key_skills": [
+        "event streaming",
+        "kafka",
+        "event sourcing",
+        "cqrs",
+        "messaging"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 117,
+      "title": "Serverless Engineer",
+      "domain": "Cloud",
+      "level": "Mid",
+      "key_skills": [
+        "aws lambda",
+        "serverless",
+        "faas",
+        "event driven",
+        "cloud"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 118,
+      "title": "Cloud Native Engineer",
+      "domain": "Cloud",
+      "level": "Senior",
+      "key_skills": [
+        "cloud native",
+        "12-factor",
+        "microservices",
+        "containers",
+        "devops"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 119,
+      "title": "MLOps Platform Engineer",
+      "domain": "AI/ML",
+      "level": "Senior",
+      "key_skills": [
+        "mlflow",
+        "kubeflow",
+        "sagemaker",
+        "feature store",
+        "model registry"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 120,
+      "title": "Recommendation Systems Engineer",
+      "domain": "AI/ML",
+      "level": "Senior",
+      "key_skills": [
+        "recommender systems",
+        "collaborative filtering",
+        "real-time",
+        "personalization",
+        "ml"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 121,
+      "title": "Fraud Detection Engineer",
+      "domain": "AI/ML",
+      "level": "Senior",
+      "key_skills": [
+        "anomaly detection",
+        "ml",
+        "real-time scoring",
+        "python",
+        "financial"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 122,
+      "title": "Search Relevance Engineer",
+      "domain": "Search",
+      "level": "Senior",
+      "key_skills": [
+        "elasticsearch",
+        "relevance tuning",
+        "nlp",
+        "ranking",
+        "a/b testing"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 123,
+      "title": "Geospatial Engineer",
+      "domain": "Data Science",
+      "level": "Mid",
+      "key_skills": [
+        "gis",
+        "postgis",
+        "geospatial analysis",
+        "python",
+        "maps"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 124,
+      "title": "Principal Data Scientist",
+      "domain": "Data Science",
+      "level": "Principal",
+      "key_skills": [
+        "research leadership",
+        "ml strategy",
+        "publications",
+        "cross-functional",
+        "business impact"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 125,
+      "title": "Principal ML Engineer",
+      "domain": "AI/ML",
+      "level": "Principal",
+      "key_skills": [
+        "ml architecture",
+        "org impact",
+        "research direction",
+        "technical vision",
+        "leadership"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 126,
+      "title": "Open Source Lead",
+      "domain": "Open Source",
+      "level": "Senior",
+      "key_skills": [
+        "project leadership",
+        "community",
+        "architecture",
+        "documentation",
+        "governance"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 127,
+      "title": "Platform Architect",
+      "domain": "Architecture",
+      "level": "Architect",
+      "key_skills": [
+        "platform design",
+        "apis",
+        "developer experience",
+        "scalability",
+        "governance"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 128,
+      "title": "Staff Data Engineer",
+      "domain": "Data Engineering",
+      "level": "Staff",
+      "key_skills": [
+        "data architecture",
+        "mentoring",
+        "platform strategy",
+        "distributed systems",
+        "governance"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 129,
+      "title": "Staff ML Engineer",
+      "domain": "AI/ML",
+      "level": "Staff",
+      "key_skills": [
+        "ml systems",
+        "org impact",
+        "mentoring",
+        "research translation",
+        "architecture"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 130,
+      "title": "Senior SRE",
+      "domain": "DevOps",
+      "level": "Senior",
+      "key_skills": [
+        "reliability engineering",
+        "incident management",
+        "capacity planning",
+        "automation",
+        "slo sli"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 131,
+      "title": "Founding Engineer",
+      "domain": "Startup",
+      "level": "Senior",
+      "key_skills": [
+        "full stack",
+        "architecture",
+        "ownership",
+        "fast iteration",
+        "team building"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 132,
+      "title": "AI Safety Researcher",
+      "domain": "Research",
+      "level": "Senior",
+      "key_skills": [
+        "alignment research",
+        "rlhf",
+        "interpretability",
+        "ethics",
+        "ml research"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 133,
+      "title": "Java Microservices Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "java",
+        "spring boot",
+        "microservices",
+        "kafka",
+        "docker"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 134,
+      "title": "Spring Boot Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "spring boot",
+        "java",
+        "rest api",
+        "hibernate",
+        "maven"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 135,
+      "title": "Kotlin Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "kotlin",
+        "jvm",
+        "coroutines",
+        "spring",
+        "android"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 136,
+      "title": "Scala Developer",
+      "domain": "Backend",
+      "level": "Senior",
+      "key_skills": [
+        "scala",
+        "akka",
+        "spark",
+        "functional programming",
+        "jvm"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 137,
+      "title": "PHP Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "php",
+        "laravel",
+        "mysql",
+        "composer",
+        "rest api"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 138,
+      "title": "Ruby Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "ruby",
+        "rails",
+        "postgresql",
+        "rest api",
+        "testing"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 139,
+      "title": "Elixir Developer",
+      "domain": "Backend",
+      "level": "Mid",
+      "key_skills": [
+        "elixir",
+        "phoenix",
+        "otp",
+        "concurrency",
+        "functional programming"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 140,
+      "title": "Rust Developer",
+      "domain": "Systems",
+      "level": "Senior",
+      "key_skills": [
+        "rust",
+        "systems programming",
+        "memory safety",
+        "performance",
+        "async rust"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 141,
+      "title": "TypeScript Developer",
+      "domain": "Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "typescript",
+        "javascript",
+        "react",
+        "node.js",
+        "type safety"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 142,
+      "title": "Swift Developer",
+      "domain": "Mobile",
+      "level": "Mid",
+      "key_skills": [
+        "swift",
+        "ios",
+        "swiftui",
+        "combine",
+        "xcode"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 143,
+      "title": "React Native + Expo Developer",
+      "domain": "Mobile",
+      "level": "Mid",
+      "key_skills": [
+        "react native",
+        "expo",
+        "javascript",
+        "eas",
+        "mobile ci"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 144,
+      "title": "Data Governance Analyst",
+      "domain": "Data",
+      "level": "Mid",
+      "key_skills": [
+        "data governance",
+        "data quality",
+        "catalog",
+        "lineage",
+        "policies"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 145,
+      "title": "Privacy Engineer",
+      "domain": "Security",
+      "level": "Senior",
+      "key_skills": [
+        "gdpr",
+        "privacy by design",
+        "data anonymization",
+        "compliance",
+        "legal tech"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 146,
+      "title": "Identity Engineer",
+      "domain": "Security",
+      "level": "Mid",
+      "key_skills": [
+        "iam",
+        "oauth",
+        "saml",
+        "okta",
+        "identity management"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 147,
+      "title": "Cloud Security Engineer",
+      "domain": "Security",
+      "level": "Senior",
+      "key_skills": [
+        "cloud security",
+        "iam",
+        "aws security",
+        "compliance",
+        "threat modeling"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 148,
+      "title": "Supply Chain Analyst",
+      "domain": "Operations",
+      "level": "Mid",
+      "key_skills": [
+        "supply chain",
+        "analytics",
+        "forecasting",
+        "sql",
+        "optimization"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 149,
+      "title": "Operations Research Analyst",
+      "domain": "Operations",
+      "level": "Senior",
+      "key_skills": [
+        "optimization",
+        "linear programming",
+        "python",
+        "simulation",
+        "data analysis"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 150,
+      "title": "Technical Cofounder",
+      "domain": "Startup",
+      "level": "Executive",
+      "key_skills": [
+        "full stack",
+        "architecture",
+        "team building",
+        "fundraising",
+        "product"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 151,
+      "title": "Infrastructure Engineer",
+      "domain": "DevOps",
+      "level": "Mid",
+      "key_skills": [
+        "aws",
+        "terraform",
+        "kubernetes",
+        "networking",
+        "reliability"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 152,
+      "title": "Release Engineer",
+      "domain": "DevOps",
+      "level": "Mid",
+      "key_skills": [
+        "ci/cd",
+        "release management",
+        "automation",
+        "versioning",
+        "deployment"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 153,
+      "title": "Technical Support Engineer",
+      "domain": "Support",
+      "level": "Mid",
+      "key_skills": [
+        "debugging",
+        "customer communication",
+        "linux",
+        "scripting",
+        "incident resolution"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 154,
+      "title": "Solutions Engineer",
+      "domain": "Sales",
+      "level": "Mid",
+      "key_skills": [
+        "technical sales",
+        "demo engineering",
+        "api integration",
+        "customer success",
+        "communication"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 155,
+      "title": "Chaos Engineer",
+      "domain": "DevOps",
+      "level": "Senior",
+      "key_skills": [
+        "chaos engineering",
+        "fault injection",
+        "resilience",
+        "kubernetes",
+        "experimentation"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 156,
+      "title": "Observability Engineer",
+      "domain": "DevOps",
+      "level": "Senior",
+      "key_skills": [
+        "opentelemetry",
+        "distributed tracing",
+        "metrics",
+        "logging",
+        "monitoring"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 157,
+      "title": "Security Architect",
+      "domain": "Security",
+      "level": "Architect",
+      "key_skills": [
+        "security architecture",
+        "threat modeling",
+        "governance",
+        "cloud security",
+        "compliance"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 158,
+      "title": "Database Reliability Engineer",
+      "domain": "Database",
+      "level": "Senior",
+      "key_skills": [
+        "database operations",
+        "reliability",
+        "performance tuning",
+        "backup",
+        "scaling"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 159,
+      "title": "Data Science Manager",
+      "domain": "Management",
+      "level": "Manager",
+      "key_skills": [
+        "team management",
+        "data science",
+        "project delivery",
+        "stakeholder management",
+        "strategy"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 160,
+      "title": "ML Research Manager",
+      "domain": "Management",
+      "level": "Manager",
+      "key_skills": [
+        "research management",
+        "ml",
+        "publications",
+        "team building",
+        "strategy"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 161,
+      "title": "AI/ML Director",
+      "domain": "Management",
+      "level": "Director",
+      "key_skills": [
+        "ai strategy",
+        "org leadership",
+        "executive communication",
+        "research direction",
+        "product ai"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 162,
+      "title": "Head of Data",
+      "domain": "Management",
+      "level": "Director",
+      "key_skills": [
+        "data strategy",
+        "governance",
+        "team leadership",
+        "architecture",
+        "stakeholders"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 163,
+      "title": "Head of Security",
+      "domain": "Management",
+      "level": "Director",
+      "key_skills": [
+        "security strategy",
+        "org leadership",
+        "compliance",
+        "risk management",
+        "executive communication"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 164,
+      "title": "VP of Product",
+      "domain": "Product",
+      "level": "VP",
+      "key_skills": [
+        "product strategy",
+        "executive leadership",
+        "go-to-market",
+        "revenue",
+        "team building"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 165,
+      "title": "CPO",
+      "domain": "C-Suite",
+      "level": "Executive",
+      "key_skills": [
+        "product vision",
+        "executive leadership",
+        "strategy",
+        "board communication",
+        "business alignment"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 166,
+      "title": "CISO",
+      "domain": "C-Suite",
+      "level": "Executive",
+      "key_skills": [
+        "security strategy",
+        "board communication",
+        "risk",
+        "compliance",
+        "org leadership"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 167,
+      "title": "CDO",
+      "domain": "C-Suite",
+      "level": "Executive",
+      "key_skills": [
+        "data strategy",
+        "governance",
+        "ai vision",
+        "org leadership",
+        "executive communication"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 168,
+      "title": "HPC Engineer",
+      "domain": "Systems",
+      "level": "Senior",
+      "key_skills": [
+        "hpc",
+        "mpi",
+        "cuda",
+        "parallel computing",
+        "cluster management"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 169,
+      "title": "Compiler Engineer",
+      "domain": "Systems",
+      "level": "Senior",
+      "key_skills": [
+        "llvm",
+        "compiler design",
+        "ir",
+        "language design",
+        "optimization passes"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 170,
+      "title": "Storage Engineer",
+      "domain": "Systems",
+      "level": "Senior",
+      "key_skills": [
+        "distributed storage",
+        "file systems",
+        "ceph",
+        "data durability",
+        "storage optimization"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 171,
+      "title": "Kernel Engineer",
+      "domain": "Systems",
+      "level": "Senior",
+      "key_skills": [
+        "linux kernel",
+        "kernel modules",
+        "device drivers",
+        "systems programming",
+        "c"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 172,
+      "title": "Cost Optimization Engineer",
+      "domain": "Cloud",
+      "level": "Senior",
+      "key_skills": [
+        "finops",
+        "cloud costs",
+        "rightsizing",
+        "reserved instances",
+        "cost allocation"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 173,
+      "title": "Conversational AI Engineer",
+      "domain": "AI/ML",
+      "level": "Mid",
+      "key_skills": [
+        "chatbots",
+        "nlu",
+        "dialogue management",
+        "nlp",
+        "conversational design"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 174,
+      "title": "Feature Platform Engineer",
+      "domain": "AI/ML",
+      "level": "Senior",
+      "key_skills": [
+        "feast",
+        "feature store",
+        "real-time features",
+        "ml infrastructure",
+        "python"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 175,
+      "title": "Digital Twin Engineer",
+      "domain": "Emerging Tech",
+      "level": "Mid",
+      "key_skills": [
+        "simulation",
+        "iot",
+        "3d modeling",
+        "real-time data",
+        "analytics"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 176,
+      "title": "Quantum Computing Engineer",
+      "domain": "Emerging Tech",
+      "level": "Senior",
+      "key_skills": [
+        "quantum algorithms",
+        "qiskit",
+        "linear algebra",
+        "quantum mechanics",
+        "research"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 177,
+      "title": "Speech Engineer",
+      "domain": "AI/ML",
+      "level": "Senior",
+      "key_skills": [
+        "speech recognition",
+        "asr",
+        "tts",
+        "audio processing",
+        "deep learning"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 178,
+      "title": "MarTech Engineer",
+      "domain": "Marketing",
+      "level": "Mid",
+      "key_skills": [
+        "marketing automation",
+        "crm integration",
+        "segmentation",
+        "analytics",
+        "api integration"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 179,
+      "title": "Ad Tech Engineer",
+      "domain": "Advertising",
+      "level": "Senior",
+      "key_skills": [
+        "programmatic",
+        "rtb",
+        "dsp ssp",
+        "data pipelines",
+        "ad serving"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 180,
+      "title": "SDK Engineer",
+      "domain": "Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "sdk design",
+        "api design",
+        "documentation",
+        "testing",
+        "developer experience"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 181,
+      "title": "Enterprise Java Developer",
+      "domain": "Backend",
+      "level": "Senior",
+      "key_skills": [
+        "java ee",
+        "spring boot",
+        "jpa",
+        "maven",
+        "enterprise patterns"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 182,
+      "title": "Microservices Architect",
+      "domain": "Architecture",
+      "level": "Architect",
+      "key_skills": [
+        "microservices",
+        "service mesh",
+        "api gateway",
+        "distributed systems",
+        "java or go"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 183,
+      "title": "Apache Kafka Developer",
+      "domain": "Data Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "kafka",
+        "kafka streams",
+        "kafka connect",
+        "event streaming",
+        "messaging"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 184,
+      "title": "Apache Spark Developer",
+      "domain": "Data Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "apache spark",
+        "pyspark",
+        "scala spark",
+        "spark streaming",
+        "big data"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 185,
+      "title": "Hadoop Developer",
+      "domain": "Data Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "hadoop",
+        "hdfs",
+        "mapreduce",
+        "hive",
+        "pig"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 186,
+      "title": "Snowflake Developer",
+      "domain": "Data",
+      "level": "Mid",
+      "key_skills": [
+        "snowflake",
+        "sql",
+        "dbt",
+        "data warehouse",
+        "cloud sql"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 187,
+      "title": "dbt Developer",
+      "domain": "Data",
+      "level": "Mid",
+      "key_skills": [
+        "dbt",
+        "sql",
+        "data transformation",
+        "analytics engineering",
+        "data models"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 188,
+      "title": "Airflow Developer",
+      "domain": "Data Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "airflow",
+        "python",
+        "dag design",
+        "pipeline orchestration",
+        "scheduling"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 189,
+      "title": "Power BI Developer",
+      "domain": "BI Tools",
+      "level": "Mid",
+      "key_skills": [
+        "power bi",
+        "dax",
+        "power query",
+        "data modeling",
+        "reporting"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 190,
+      "title": "Tableau Developer",
+      "domain": "BI Tools",
+      "level": "Mid",
+      "key_skills": [
+        "tableau",
+        "tableau desktop",
+        "data visualization",
+        "dashboard design",
+        "sql"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 191,
+      "title": "ETL Developer",
+      "domain": "Data Engineering",
+      "level": "Mid",
+      "key_skills": [
+        "etl",
+        "data pipeline",
+        "ssis",
+        "informatica",
+        "sql",
+        "data integration"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 192,
+      "title": "Risk Engineer",
+      "domain": "Finance",
+      "level": "Senior",
+      "key_skills": [
+        "risk modeling",
+        "python",
+        "statistics",
+        "compliance",
+        "financial risk"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 193,
+      "title": "Regulatory Technology Engineer",
+      "domain": "Finance",
+      "level": "Mid",
+      "key_skills": [
+        "regulatory compliance",
+        "reporting automation",
+        "financial data",
+        "python",
+        "etl"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 194,
+      "title": "InsurTech Developer",
+      "domain": "Insurance",
+      "level": "Mid",
+      "key_skills": [
+        "insurance systems",
+        "claims processing",
+        "api integration",
+        "python",
+        "analytics"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 195,
+      "title": "PropTech Developer",
+      "domain": "Real Estate",
+      "level": "Mid",
+      "key_skills": [
+        "real estate apis",
+        "geospatial",
+        "property data",
+        "full stack",
+        "analytics"
+      ],
+      "weight": 5
+    },
+    {
+      "id": 196,
+      "title": "EdTech Developer",
+      "domain": "Education",
+      "level": "Mid",
+      "key_skills": [
+        "lms",
+        "e-learning",
+        "gamification",
+        "content platforms",
+        "web development"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 197,
+      "title": "LegalTech Developer",
+      "domain": "Legal",
+      "level": "Mid",
+      "key_skills": [
+        "contract management",
+        "nlp",
+        "legal apis",
+        "document processing",
+        "python"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 198,
+      "title": "Autonomous Vehicle Engineer",
+      "domain": "Robotics",
+      "level": "Senior",
+      "key_skills": [
+        "computer vision",
+        "ros",
+        "perception",
+        "planning",
+        "c++"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 199,
+      "title": "Drone Software Engineer",
+      "domain": "Robotics",
+      "level": "Mid",
+      "key_skills": [
+        "ros",
+        "flight control",
+        "sensor fusion",
+        "embedded",
+        "c++"
+      ],
+      "weight": 6
+    },
+    {
+      "id": 200,
+      "title": "Supply Chain Engineer",
+      "domain": "Operations",
+      "level": "Mid",
+      "key_skills": [
+        "supply chain systems",
+        "erp",
+        "api integration",
+        "data analytics",
+        "optimization"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 201,
+      "title": "Digital Transformation Lead",
+      "domain": "Consulting",
+      "level": "Senior",
+      "key_skills": [
+        "digital strategy",
+        "cloud migration",
+        "agile",
+        "stakeholder management",
+        "architecture"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 202,
+      "title": "Technology Consultant",
+      "domain": "Consulting",
+      "level": "Senior",
+      "key_skills": [
+        "architecture",
+        "client communication",
+        "solution design",
+        "cloud",
+        "agile"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 203,
+      "title": "Site Reliability Manager",
+      "domain": "DevOps",
+      "level": "Manager",
+      "key_skills": [
+        "sre",
+        "team management",
+        "incident management",
+        "reliability engineering",
+        "slo"
+      ],
+      "weight": 9
+    },
+    {
+      "id": 204,
+      "title": "Cloud Center of Excellence Lead",
+      "domain": "Cloud",
+      "level": "Senior",
+      "key_skills": [
+        "cloud governance",
+        "multi-cloud",
+        "finops",
+        "security",
+        "architecture standards"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 205,
+      "title": "API Platform Engineer",
+      "domain": "Engineering",
+      "level": "Senior",
+      "key_skills": [
+        "api gateway",
+        "api design",
+        "developer portal",
+        "api governance",
+        "openapi"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 206,
+      "title": "Data Mesh Architect",
+      "domain": "Data Engineering",
+      "level": "Architect",
+      "key_skills": [
+        "data mesh",
+        "data products",
+        "domain ownership",
+        "federated governance",
+        "data platform"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 207,
+      "title": "Internal Developer Platform Engineer",
+      "domain": "DevOps",
+      "level": "Senior",
+      "key_skills": [
+        "idp",
+        "backstage",
+        "developer experience",
+        "platform engineering",
+        "golden paths"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 208,
+      "title": "Cryptography Engineer",
+      "domain": "Security",
+      "level": "Senior",
+      "key_skills": [
+        "cryptography",
+        "encryption",
+        "pki",
+        "tls",
+        "zero knowledge proofs"
+      ],
+      "weight": 7
+    },
+    {
+      "id": 209,
+      "title": "Incident Response Lead",
+      "domain": "Security",
+      "level": "Senior",
+      "key_skills": [
+        "incident response",
+        "forensics",
+        "malware analysis",
+        "threat hunting",
+        "soc"
+      ],
+      "weight": 8
+    },
+    {
+      "id": 210,
+      "title": "Graph Database Engineer",
+      "domain": "Database",
+      "level": "Mid",
+      "key_skills": [
+        "neo4j",
+        "cypher",
+        "graph algorithms",
+        "knowledge graphs",
+        "gremlin"
+      ],
+      "weight": 6
+    }
+  ]
+}
