@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react'
 import axios from 'axios'
 
-const API = '/api'
+const API = 'https://resume-analyzer-java-1.onrender.com/api'
 
 export function useAnalysis() {
   const [result, setResult] = useState(null)
