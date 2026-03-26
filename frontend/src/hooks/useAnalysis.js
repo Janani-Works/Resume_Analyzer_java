@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react'
 import axios from 'axios'
 
-// 🔥 Replace with your Railway backend URL
+// ✅ Your Railway backend URL
 const API = "https://resume-analyzer-production.up.railway.app/api"
 
 export function useAnalysis() {
@@ -14,6 +14,16 @@ export function useAnalysis() {
     setError(null)
 
     try {
+      // ✅ Validation (frontend safety)
+      if (!resumeFile && !resumeText) {
+        throw new Error("Please upload a resume or paste resume text")
+      }
+
+      if (!jdText && !jdUrl) {
+        throw new Error("Please provide job description or URL")
+      }
+
+      // ✅ Create FormData
       const form = new FormData()
 
       if (resumeFile) form.append('resumeFile', resumeFile)
@@ -21,13 +31,12 @@ export function useAnalysis() {
       if (jdText) form.append('jdText', jdText)
       if (jdUrl) form.append('jdUrl', jdUrl)
 
+      // ✅ Send request (DO NOT manually set Content-Type)
       const response = await axios.post(`${API}/analyze`, form, {
-        headers: {
-          'Content-Type': 'multipart/form-data'
-        },
         timeout: 30000
       })
 
+      // ✅ Store result
       setResult(response.data)
       return response.data
 
