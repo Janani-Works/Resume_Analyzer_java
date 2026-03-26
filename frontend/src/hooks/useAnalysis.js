@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react'
 import axios from 'axios'
 
 // ✅ Your Railway backend URL
-const API = "https://resume-analyzer-production.up.railway.app/api"
+const API = "https://resumeanalyzerjava-production.up.railway.app/api"
 
 export function useAnalysis() {
   const [result, setResult] = useState(null)
