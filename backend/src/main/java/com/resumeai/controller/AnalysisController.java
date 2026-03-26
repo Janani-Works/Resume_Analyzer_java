@@ -27,7 +27,7 @@ public class AnalysisController {
         this.dataLoader = dataLoader;
     }
 
-    @PostMapping(value = "/analyze", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    @PostMapping(value = "/analyze")
     public ResponseEntity<?> analyze(
 
             // ✅ FIX: use @RequestPart consistently for multipart
