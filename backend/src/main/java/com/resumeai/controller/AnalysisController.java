@@ -3,9 +3,10 @@ package com.resumeai.controller;
 import com.resumeai.dto.AnalysisResponse;
 import com.resumeai.service.AnalysisService;
 import com.resumeai.service.DataLoaderService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.MediaType;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -14,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*") // 🔥 IMPORTANT (change later to your frontend URL)
+@CrossOrigin(origins = "*") // Change this to your frontend URL later
 public class AnalysisController {
 
     private static final Logger log = LoggerFactory.getLogger(AnalysisController.class);
@@ -27,35 +28,37 @@ public class AnalysisController {
         this.dataLoader = dataLoader;
     }
 
-    @PostMapping(value = "/analyze")
+    // 🔍 Resume Analysis Endpoint
+    @PostMapping("/analyze")
     public ResponseEntity<?> analyze(
 
-            // ✅ FIX: use @RequestPart consistently for multipart
             @RequestPart(value = "resumeFile", required = false) MultipartFile resumeFile,
-
             @RequestPart(value = "resumeText", required = false) String resumeText,
             @RequestPart(value = "jdText", required = false) String jdText,
             @RequestPart(value = "jdUrl", required = false) String jdUrl
     ) {
 
         try {
-            // Validation
-            boolean hasResume = (resumeFile != null && !resumeFile.isEmpty())
-                    || (resumeText != null && !resumeText.isBlank());
+            // ✅ Validate inputs
+            boolean hasResume =
+                    (resumeFile != null && !resumeFile.isEmpty()) ||
+                            (resumeText != null && !resumeText.isBlank());
 
-            boolean hasJd = (jdText != null && !jdText.isBlank())
-                    || (jdUrl != null && !jdUrl.isBlank());
+            boolean hasJd =
+                    (jdText != null && !jdText.isBlank()) ||
+                            (jdUrl != null && !jdUrl.isBlank());
 
             if (!hasResume) {
                 return ResponseEntity.badRequest()
-                        .body(Map.of("error", "Please provide a resume file or resume text."));
+                        .body(Map.of("error", "Provide resume file or resume text"));
             }
 
             if (!hasJd) {
                 return ResponseEntity.badRequest()
-                        .body(Map.of("error", "Please provide a job description or URL."));
+                        .body(Map.of("error", "Provide job description or job URL"));
             }
 
+            // 🚀 Call service
             AnalysisResponse response =
                     analysisService.analyze(resumeFile, resumeText, jdText, jdUrl);
 
@@ -63,16 +66,17 @@ public class AnalysisController {
 
         } catch (IllegalArgumentException e) {
             log.warn("Validation error: {}", e.getMessage());
-            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+            return ResponseEntity.badRequest()
+                    .body(Map.of("error", e.getMessage()));
 
         } catch (Exception e) {
-            log.error("Analysis failed", e);
+            log.error("Unexpected error during analysis", e);
             return ResponseEntity.internalServerError()
-                    .body(Map.of("error", "Analysis failed"));
+                    .body(Map.of("error", "Internal server error"));
         }
     }
 
-    // Health check
+    // ❤️ Health check
     @GetMapping("/health")
     public ResponseEntity<Map<String, Object>> health() {
         return ResponseEntity.ok(Map.of(
@@ -80,5 +84,11 @@ public class AnalysisController {
                 "skillsLoaded", dataLoader.getAllSkills().size(),
                 "jobFieldsLoaded", dataLoader.getAllJobFields().size()
         ));
+    }
+
+    // 🧪 Debug endpoint (VERY IMPORTANT for Railway)
+    @GetMapping("/ping")
+    public String ping() {
+        return "pong";
     }
 }
