@@ -1,7 +1,8 @@
 import { useState, useCallback } from 'react'
 import axios from 'axios'
 
-const API = 'https://resume-analyzer-java-1.onrender.com/api'
+// 🔥 Replace with your Railway backend URL
+const API = "https://resume-analyzer-production.up.railway.app/api"
 
 export function useAnalysis() {
   const [result, setResult] = useState(null)
@@ -11,23 +12,34 @@ export function useAnalysis() {
   const analyze = useCallback(async ({ resumeFile, resumeText, jdText, jdUrl }) => {
     setLoading(true)
     setError(null)
+
     try {
       const form = new FormData()
+
       if (resumeFile) form.append('resumeFile', resumeFile)
       if (resumeText) form.append('resumeText', resumeText)
       if (jdText) form.append('jdText', jdText)
       if (jdUrl) form.append('jdUrl', jdUrl)
 
-      const { data } = await axios.post(`${API}/analyze`, form, {
-        headers: { 'Content-Type': 'multipart/form-data' },
-        timeout: 30000,
+      const response = await axios.post(`${API}/analyze`, form, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        },
+        timeout: 30000
       })
-      setResult(data)
-      return data
+
+      setResult(response.data)
+      return response.data
+
     } catch (err) {
-      const msg = err.response?.data?.error || err.message || 'Analysis failed'
+      const msg =
+        err.response?.data?.error ||
+        err.message ||
+        'Analysis failed'
+
       setError(msg)
       throw new Error(msg)
+
     } finally {
       setLoading(false)
     }

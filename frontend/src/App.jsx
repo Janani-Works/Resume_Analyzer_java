@@ -12,30 +12,44 @@ import { useHistory }  from './hooks/useHistory'
 
 const fade = {
   initial: { opacity: 0, y: 10 },
-  animate: { opacity: 1, y: 0, transition: { duration: 0.3, ease: [0.25, 0.46, 0.45, 0.94] } },
-  exit:    { opacity: 0, y: -6, transition: { duration: 0.18 } },
+  animate: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+  exit:    { opacity: 0, y: -6, transition: { duration: 0.2 } },
 }
 
 export default function App() {
-  const [page, setPage]       = useState('landing')
+  const [page, setPage] = useState('landing')
+
   const { result, loading, analyze, reset } = useAnalysis()
   const { toasts, addToast, removeToast }   = useToast()
   const { history, addToHistory, clearHistory } = useHistory()
 
-  const handleAnalyze = useCallback(async inputs => {
+  const handleAnalyze = useCallback(async (inputs) => {
     try {
       const data = await analyze(inputs)
+
       addToHistory(data)
       addToast(`Analysis complete — ${data.matchScore}% match`, 'success')
+
       setPage('results')
+
     } catch (err) {
-      addToast(err.message || 'Analysis failed. Is the backend running on port 8080?', 'error', 6000)
+      addToast(
+        err.message || 'Analysis failed. Please check backend connection.',
+        'error',
+        6000
+      )
     }
   }, [analyze, addToHistory, addToast])
 
   return (
     <div style={{ background: 'var(--cream)', minHeight: '100vh' }}>
-      <Navbar page={page} onNav={p => { if (p !== 'results') reset(); setPage(p) }} />
+      <Navbar
+        page={page}
+        onNav={(p) => {
+          if (p !== 'results') reset()
+          setPage(p)
+        }}
+      />
 
       <AnimatePresence mode="wait">
         {page === 'landing' && (
@@ -43,19 +57,31 @@ export default function App() {
             <LandingPage onStart={() => setPage('analyzer')} />
           </motion.div>
         )}
+
         {page === 'analyzer' && (
           <motion.div key="analyzer" {...fade}>
-            <AnalyzerPage onAnalyze={handleAnalyze} loading={loading} />
+            <AnalyzerPage
+              onAnalyze={handleAnalyze}
+              loading={loading}
+            />
           </motion.div>
         )}
+
         {page === 'results' && result && (
           <motion.div key="results" {...fade}>
-            <ResultsPage result={result} onBack={() => setPage('analyzer')} />
+            <ResultsPage
+              result={result}
+              onBack={() => setPage('analyzer')}
+            />
           </motion.div>
         )}
+
         {page === 'history' && (
           <motion.div key="history" {...fade}>
-            <HistoryPage history={history} onClear={clearHistory} />
+            <HistoryPage
+              history={history}
+              onClear={clearHistory}
+            />
           </motion.div>
         )}
       </AnimatePresence>
